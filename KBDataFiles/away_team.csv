@@ -1,637 +1,358 @@
-away_team_id,away_team_name,away_team_gender,away_team_group,managers
-207,Valencia,male,,"[{'id': 211, 'name': 'Marcelino García Toral', 'nickname': 'Marcelino', 'dob': '1965-08-14', 'country': {'id': 214, 'name': 'Spain'}}]"
-217,Barcelona,male,,"[{'id': 227, 'name': 'Ernesto Valverde Tejedor', 'nickname': 'Ernesto Valverde', 'dob': '1964-02-09', 'country': {'id': 214, 'name': 'Spain'}}]"
-220,Real Madrid,male,,"[{'id': 56, 'name': 'Zinédine Zidane', 'nickname': None, 'dob': '1972-06-23', 'country': {'id': 78, 'name': 'France'}}]"
-215,Athletic Club,male,,"[{'id': 210, 'name': 'José Ángel Ziganda Lacunza', 'nickname': 'Cuco Ziganda', 'dob': '1966-10-01', 'country': {'id': 214, 'name': 'Spain'}}]"
-208,Las Palmas,male,,"[{'id': 618, 'name': 'Francisco Martín Ayestarán Barandiarán', 'nickname': 'Pako Ayestarán', 'dob': '1963-02-05', 'country': {'id': 214, 'name': 'Spain'}}]"
-322,Eibar,male,,"[{'id': 221, 'name': 'José Luis Mendilibar Etxebarria', 'nickname': 'José Luis Mendilibar', 'dob': '1961-03-14', 'country': {'id': 214, 'name': 'Spain'}}]"
-218,Real Betis,male,,"[{'id': 238, 'name': 'Enrique Setién Solar', 'nickname': 'Quique Setién', 'dob': '1958-09-27', 'country': {'id': 214, 'name': 'Spain'}}]"
-222,Villarreal,male,,"[{'id': 182, 'name': 'Javier Calleja Revilla', 'nickname': 'Javi Calleja', 'dob': '1978-05-12', 'country': {'id': 214, 'name': 'Spain'}}]"
-221,Levante UD,male,,"[{'id': 2, 'name': 'Juan Ramón López Muñiz', 'nickname': 'Juan Muñiz', 'dob': '1968-11-02', 'country': {'id': 214, 'name': 'Spain'}}]"
-214,Espanyol,male,,"[{'id': 236, 'name': 'Enrique Sánchez Flores', 'nickname': 'Quique Sánchez Flores', 'dob': '1965-02-05', 'country': {'id': 214, 'name': 'Spain'}}]"
-205,Leganés,male,,"[{'id': 84, 'name': 'Asier Garitano Aguirrezábal', 'nickname': 'Asier Garitano', 'dob': '1969-12-06', 'country': {'id': 214, 'name': 'Spain'}}]"
-209,Celta Vigo,male,,"[{'id': 208, 'name': 'Juan Carlos Unzué Labiano', 'nickname': 'Juan Carlos Unzué', 'dob': '1967-04-22', 'country': {'id': 214, 'name': 'Spain'}}]"
-216,Getafe,male,,"[{'id': 228, 'name': 'José Bordalás Jiménez', 'nickname': 'Pepe Bordalás', 'dob': '1964-03-05', 'country': {'id': 214, 'name': 'Spain'}}]"
-213,Sevilla,male,,"[{'id': 385, 'name': 'Manuel Eduardo Berizzo', 'nickname': 'Eduardo Berizzo', 'dob': '1969-11-13', 'country': {'id': 11, 'name': 'Argentina'}}]"
-223,Málaga,male,,"[{'id': 505, 'name': 'José Miguel González Martín del Campo', 'nickname': 'Míchel', 'dob': '1963-03-23', 'country': {'id': 214, 'name': 'Spain'}}]"
-212,Atlético Madrid,male,,"[{'id': 230, 'name': 'Diego Pablo Simeone', 'nickname': 'Diego Simeone', 'dob': '1970-04-28', 'country': {'id': 11, 'name': 'Argentina'}}]"
-211,Girona,male,,"[{'id': 234, 'name': 'Pablo Javier Machín Díez', 'nickname': 'Pablo Machín', 'dob': '1975-04-07', 'country': {'id': 214, 'name': 'Spain'}}]"
-206,Deportivo Alavés,male,,"[{'id': 187, 'name': 'Abelardo Fernández Antuña', 'nickname': 'Abelardo', 'dob': '1970-04-19', 'country': {'id': 214, 'name': 'Spain'}}]"
-210,Real Sociedad,male,,"[{'id': 85, 'name': 'Imanol Alguacil Barrenetxea', 'nickname': 'Imanol Alguacil', 'dob': '1971-07-04', 'country': {'id': 214, 'name': 'Spain'}}]"
-219,RC Deportivo La Coruña,male,,"[{'id': 235, 'name': 'Cristóbal Parralo Aguilera', 'nickname': 'Cristóbal Parralo', 'dob': '1967-08-21', 'country': {'id': 214, 'name': 'Spain'}}]"
-217,Barcelona,male,,"[{'id': 793, 'name': 'Luis Enrique Martínez García', 'nickname': 'Luis Enrique', 'dob': '1970-05-08', 'country': {'id': 214, 'name': 'Spain'}}]"
-206,Deportivo Alavés,male,,"[{'id': 681, 'name': 'Mauricio Pellegrino', 'nickname': None, 'dob': '1971-10-05', 'country': {'id': 11, 'name': 'Argentina'}}]"
-218,Real Betis,male,,"[{'id': 125, 'name': 'Gustavo Augusto Poyet Domínguez', 'nickname': 'Gus Poyet', 'dob': '1967-11-15', 'country': {'id': 242, 'name': 'Uruguay'}}]"
-422,Osasuna,male,,"[{'id': 3199, 'name': 'Petar Vasiljević', 'nickname': None, 'dob': '1970-11-03', 'country': {'id': 203, 'name': 'Serbia'}}]"
-207,Valencia,male,,"[{'id': 4167, 'name': 'Salvador González Marco', 'nickname': 'Voro', 'dob': '1963-10-09', 'country': {'id': 214, 'name': 'Spain'}}]"
-208,Las Palmas,male,,"[{'id': 238, 'name': 'Enrique Setién Solar', 'nickname': 'Quique Setién', 'dob': '1958-09-27', 'country': {'id': 214, 'name': 'Spain'}}]"
-215,Athletic Club,male,,"[{'id': 227, 'name': 'Ernesto Valverde Tejedor', 'nickname': 'Ernesto Valverde', 'dob': '1964-02-09', 'country': {'id': 214, 'name': 'Spain'}}]"
-213,Sevilla,male,,"[{'id': 637, 'name': 'Jorge Luis Sampaoli Moya', 'nickname': 'Jorge Sampaoli', 'dob': '1960-03-13', 'country': {'id': 11, 'name': 'Argentina'}}]"
-210,Real Sociedad,male,,"[{'id': 229, 'name': 'Eusebio Sacristán Mena', 'nickname': 'Eusebio Sacristán', 'dob': '1964-04-13', 'country': {'id': 214, 'name': 'Spain'}}]"
-222,Villarreal,male,,"[{'id': 509, 'name': 'Francisco Escriba Segura', 'nickname': 'Fran Escribá', 'dob': '1965-05-03', 'country': {'id': 214, 'name': 'Spain'}}]"
-209,Celta Vigo,male,,"[{'id': 385, 'name': 'Manuel Eduardo Berizzo', 'nickname': 'Eduardo Berizzo', 'dob': '1969-11-13', 'country': {'id': 11, 'name': 'Argentina'}}]"
-1041,Sporting Gijón,male,,"[{'id': 677, 'name': 'Joan Francesc Ferrer Sicilia', 'nickname': 'Rubí', 'dob': '1970-02-05', 'country': {'id': 214, 'name': 'Spain'}}]"
-219,RC Deportivo La Coruña,male,,"[{'id': 767, 'name': 'Gaizka Garitano Aguirre', 'nickname': 'Gaizka Garitano', 'dob': '1975-07-09', 'country': {'id': 214, 'name': 'Spain'}}]"
-1049,Granada,male,,"[{'id': 1612, 'name': 'Luis Lucas Alcaraz González', 'nickname': 'Lucas Alcaraz', 'dob': '1966-06-21', 'country': {'id': 214, 'name': 'Spain'}}]"
-213,Sevilla,male,,"[{'id': 1621, 'name': 'Manuel Enrique Jiménez Jiménez', 'nickname': 'Manolo Jiménez', 'dob': '1964-01-26', 'country': {'id': 214, 'name': 'Spain'}}]"
-627,Tenerife,male,,"[{'id': 1606, 'name': 'José Luis Oltra Castañer', 'nickname': 'José Luis Oltra', 'dob': '1969-03-24', 'country': {'id': 214, 'name': 'Spain'}}]"
-217,Barcelona,male,,"[{'id': 36, 'name': 'Josep Guardiola i Sala', 'nickname': 'Pep Guardiola', 'dob': '1971-01-18', 'country': {'id': 214, 'name': 'Spain'}}]"
-422,Osasuna,male,,"[{'id': 4961, 'name': 'José Antonio Camacho Alfaro', 'nickname': 'José Camacho', 'dob': '1955-06-08', 'country': {'id': 214, 'name': 'Spain'}}]"
-395,Real Zaragoza,male,,"[{'id': 211, 'name': 'Marcelino García Toral', 'nickname': 'Marcelino', 'dob': '1965-08-14', 'country': {'id': 214, 'name': 'Spain'}}]"
-1043,Mallorca,male,,"[{'id': 4994, 'name': 'Gregorio Manzano Ballesteros', 'nickname': 'Gregorio Manzano', 'dob': '1956-03-11', 'country': {'id': 214, 'name': 'Spain'}}]"
-901,Real Valladolid,male,,"[{'id': 4993, 'name': 'Javier Clemente Lazaro', 'nickname': 'Javier Clemente', 'dob': '1950-03-12', 'country': {'id': 214, 'name': 'Spain'}}]"
-403,Almería,male,,
-207,Valencia,male,,"[{'id': 21, 'name': 'Unai Emery Etxegoien', 'nickname': 'Unai Emery', 'dob': '1971-11-03', 'country': {'id': 214, 'name': 'Spain'}}]"
-1219,Xerez,male,,"[{'id': 2897, 'name': 'Néstor Raúl Gorosito', 'nickname': 'Néstor Gorosito', 'dob': '1964-05-14', 'country': {'id': 11, 'name': 'Argentina'}}]"
-220,Real Madrid,male,,"[{'id': 733, 'name': 'Manuel Luis Pellegrini Ripamonti', 'nickname': 'Manuel Pellegrini', 'dob': '1953-09-16', 'country': {'id': 45, 'name': 'Chile'}}]"
-216,Getafe,male,,"[{'id': 505, 'name': 'José Miguel González Martín del Campo', 'nickname': 'Míchel', 'dob': '1963-03-23', 'country': {'id': 214, 'name': 'Spain'}}]"
-1217,Racing Santander,male,,"[{'id': 4954, 'name': 'Miguel Ángel Portugal Vicario', 'nickname': 'Miguel Ángel Portugal', 'dob': '1955-11-28', 'country': {'id': 214, 'name': 'Spain'}}]"
-223,Málaga,male,,"[{'id': 2, 'name': 'Juan Ramón López Muñiz', 'nickname': 'Juan Muñiz', 'dob': '1968-11-02', 'country': {'id': 214, 'name': 'Spain'}}]"
-212,Atlético Madrid,male,,"[{'id': 4988, 'name': 'Abel Resino Gómez', 'nickname': None, 'dob': '1960-02-02', 'country': {'id': 214, 'name': 'Spain'}}]"
-215,Athletic Club,male,,"[{'id': 497, 'name': 'Joaquín de Jesús Caparrós Camino', 'nickname': 'Joaquín Caparrós', 'dob': '1955-10-15', 'country': {'id': 214, 'name': 'Spain'}}]"
-219,RC Deportivo La Coruña,male,,"[{'id': 4519, 'name': 'Miguel Ángel Lotina Oruecheberría', 'nickname': 'Miguel Ángel Lotina', 'dob': '1957-06-18', 'country': {'id': 214, 'name': 'Spain'}}]"
-212,Atlético Madrid,male,,"[{'id': 236, 'name': 'Enrique Sánchez Flores', 'nickname': 'Quique Sánchez Flores', 'dob': '1965-02-05', 'country': {'id': 214, 'name': 'Spain'}}]"
-422,Osasuna,male,,"[{'id': 221, 'name': 'José Luis Mendilibar Etxebarria', 'nickname': 'José Luis Mendilibar', 'dob': '1961-03-14', 'country': {'id': 214, 'name': 'Spain'}}]"
-223,Málaga,male,,"[{'id': 733, 'name': 'Manuel Luis Pellegrini Ripamonti', 'nickname': 'Manuel Pellegrini', 'dob': '1953-09-16', 'country': {'id': 45, 'name': 'Chile'}}]"
-1218,Hércules,male,,"[{'id': 4973, 'name': 'Esteban Vigo Benítez', 'nickname': 'Esteban Vigo', 'dob': '1955-01-17', 'country': {'id': 214, 'name': 'Spain'}}]"
-210,Real Sociedad,male,,"[{'id': 5043, 'name': 'Martín Lasarte Arrospide', 'nickname': None, 'dob': '1961-03-20', 'country': {'id': 242, 'name': 'Uruguay'}}]"
-1043,Mallorca,male,,"[{'id': 4991, 'name': 'Michael Laudrup', 'nickname': None, 'dob': '1964-06-15', 'country': {'id': 61, 'name': 'Denmark'}}]"
-214,Espanyol,male,,"[{'id': 81, 'name': 'Mauricio Roberto Pochettino Trossero', 'nickname': 'Mauricio Pochettino', 'dob': '1972-03-02', 'country': {'id': 11, 'name': 'Argentina'}}]"
-222,Villarreal,male,,"[{'id': 4201, 'name': 'Juan Carlos Garrido Fernández', 'nickname': 'Juan Garrido', 'dob': '1969-03-29', 'country': {'id': 214, 'name': 'Spain'}}]"
-220,Real Madrid,male,,"[{'id': 383, 'name': 'José Mario Felix dos Santos Mourinho', 'nickname': 'José Mourinho', 'dob': '1963-01-26', 'country': {'id': 183, 'name': 'Portugal'}}]"
-395,Real Zaragoza,male,,"[{'id': 3196, 'name': 'Javier Aguirre Onaindía', 'nickname': 'Javier Aguirre', 'dob': '1958-12-01', 'country': {'id': 147, 'name': 'Mexico'}}]"
-213,Sevilla,male,,"[{'id': 4994, 'name': 'Gregorio Manzano Ballesteros', 'nickname': 'Gregorio Manzano', 'dob': '1956-03-11', 'country': {'id': 214, 'name': 'Spain'}}]"
-213,Sevilla,male,,"[{'id': 211, 'name': 'Marcelino García Toral', 'nickname': 'Marcelino', 'dob': '1965-08-14', 'country': {'id': 214, 'name': 'Spain'}}]"
-210,Real Sociedad,male,,"[{'id': 224, 'name': 'Philippe Jacques William Montanier', 'nickname': None, 'dob': '1964-11-15', 'country': {'id': 78, 'name': 'France'}}]"
-360,Rayo Vallecano,male,,"[{'id': 1617, 'name': 'José Ramón Sandoval Huertas', 'nickname': 'José Ramón Sandoval', 'dob': '1968-05-02', 'country': {'id': 214, 'name': 'Spain'}}]"
-212,Atlético Madrid,male,,"[{'id': 4994, 'name': 'Gregorio Manzano Ballesteros', 'nickname': 'Gregorio Manzano', 'dob': '1956-03-11', 'country': {'id': 214, 'name': 'Spain'}}]"
-1049,Granada,male,,"[{'id': 4988, 'name': 'Abel Resino Gómez', 'nickname': None, 'dob': '1960-02-02', 'country': {'id': 214, 'name': 'Spain'}}]"
-1217,Racing Santander,male,,"[{'id': 486, 'name': 'Héctor Raúl Cúper', 'nickname': 'Héctor Cúper', 'dob': '1955-11-16', 'country': {'id': 11, 'name': 'Argentina'}}]"
-221,Levante UD,male,,"[{'id': 4974, 'name': 'Juan Ignacio Martínez Jiménez', 'nickname': 'Juan Ignacio Martínez', 'dob': '1964-06-23', 'country': {'id': 214, 'name': 'Spain'}}]"
-216,Getafe,male,,"[{'id': 392, 'name': 'Luis García Plaza', 'nickname': 'Luis García', 'dob': '1972-12-01', 'country': {'id': 214, 'name': 'Spain'}}]"
-218,Real Betis,male,,"[{'id': 57, 'name': 'José Mel Pérez', 'nickname': 'Pepe Mel', 'dob': '1963-02-28', 'country': {'id': 214, 'name': 'Spain'}}]"
-1043,Mallorca,male,,"[{'id': 497, 'name': 'Joaquín de Jesús Caparrós Camino', 'nickname': 'Joaquín Caparrós', 'dob': '1955-10-15', 'country': {'id': 214, 'name': 'Spain'}}]"
-215,Athletic Club,male,,"[{'id': 269, 'name': 'Marcelo Alberto Bielsa Caldera', 'nickname': 'Marcelo Bielsa', 'dob': '1955-07-21', 'country': {'id': 11, 'name': 'Argentina'}}]"
-217,Barcelona,male,,
-1049,Granada,male,,
-218,Real Betis,male,,
-209,Celta Vigo,male,,
-212,Atlético Madrid,male,,
-216,Getafe,male,,
-214,Espanyol,male,,
-210,Real Sociedad,male,,
-422,Osasuna,male,,
-215,Athletic Club,male,,
-217,Barcelona,male,,"[{'id': 1001722, 'name': 'Francesc Vilanova i Bayo', 'nickname': 'Tito Vilanova', 'dob': '1969-09-17', 'country': {'id': 214, 'name': 'Spain'}}]"
-207,Valencia,male,,
-395,Real Zaragoza,male,,
-220,Real Madrid,male,,
-360,Rayo Vallecano,male,,
-219,RC Deportivo La Coruña,male,,
-213,Sevilla,male,,
-213,Sevilla,male,,"[{'id': 21, 'name': 'Unai Emery Etxegoien', 'nickname': 'Unai Emery', 'dob': '1971-11-03', 'country': {'id': 214, 'name': 'Spain'}}]"
-217,Barcelona,male,,"[{'id': 163, 'name': 'Gerardo Daniel Martino', 'nickname': 'Gerardo Martino', 'dob': '1962-11-20', 'country': {'id': 11, 'name': 'Argentina'}}]"
-223,Málaga,male,,"[{'id': 4986, 'name': 'Bernd Schuster', 'nickname': None, 'dob': '1959-12-22', 'country': {'id': 85, 'name': 'Germany'}}]"
-210,Real Sociedad,male,,"[{'id': 1592, 'name': 'Jagoba Arrasate Elustondo', 'nickname': 'Jagoba Arrasate', 'dob': '1978-04-22', 'country': {'id': 214, 'name': 'Spain'}}]"
-403,Almería,male,,"[{'id': 673, 'name': 'Francisco Javier Rodríguez Vílchez', 'nickname': 'Francisco ', 'dob': '1978-06-17', 'country': {'id': 214, 'name': 'Spain'}}]"
-422,Osasuna,male,,"[{'id': 188, 'name': 'Javier Gracia Carlos', 'nickname': 'Javi Gracia', 'dob': '1970-05-01', 'country': {'id': 214, 'name': 'Spain'}}]"
-209,Celta Vigo,male,,"[{'id': 793, 'name': 'Luis Enrique Martínez García', 'nickname': 'Luis Enrique', 'dob': '1970-05-08', 'country': {'id': 214, 'name': 'Spain'}}]"
-220,Real Madrid,male,,"[{'id': 414, 'name': 'Carlo Ancelotti', 'nickname': None, 'dob': '1959-06-10', 'country': {'id': 112, 'name': 'Italy'}}]"
-360,Rayo Vallecano,male,,"[{'id': 220, 'name': 'Francisco Jémez Martín', 'nickname': 'Paco Jémez', 'dob': '1970-04-18', 'country': {'id': 214, 'name': 'Spain'}}]"
-221,Levante UD,male,,"[{'id': 497, 'name': 'Joaquín de Jesús Caparrós Camino', 'nickname': 'Joaquín Caparrós', 'dob': '1955-10-15', 'country': {'id': 214, 'name': 'Spain'}}]"
-214,Espanyol,male,,"[{'id': 3196, 'name': 'Javier Aguirre Onaindía', 'nickname': 'Javier Aguirre', 'dob': '1958-12-01', 'country': {'id': 147, 'name': 'Mexico'}}]"
-207,Valencia,male,,"[{'id': 638, 'name': 'Juan Antonio Pizzi Torroja', 'nickname': 'Pizzi', 'dob': '1968-06-07', 'country': {'id': 214, 'name': 'Spain'}}]"
-216,Getafe,male,,"[{'id': 4182, 'name': 'Cosmin Marius Contra', 'nickname': 'Cosmin Contra', 'dob': '1975-12-15', 'country': {'id': 187, 'name': 'Romania'}}]"
-216,Getafe,male,,"[{'id': 6277, 'name': 'Pablo Franco Martín', 'nickname': 'Pablo Franco', 'dob': '1973-10-16', 'country': {'id': 214, 'name': 'Spain'}}]"
-1049,Granada,male,,"[{'id': 497, 'name': 'Joaquín de Jesús Caparrós Camino', 'nickname': 'Joaquín Caparrós', 'dob': '1955-10-15', 'country': {'id': 214, 'name': 'Spain'}}]"
-219,RC Deportivo La Coruña,male,,"[{'id': 3157, 'name': 'Víctor Sánchez del Amo', 'nickname': 'Víctor Sánchez', 'dob': '1976-02-23', 'country': {'id': 214, 'name': 'Spain'}}]"
-322,Eibar,male,,"[{'id': 767, 'name': 'Gaizka Garitano Aguirre', 'nickname': 'Gaizka Garitano', 'dob': '1975-07-09', 'country': {'id': 214, 'name': 'Spain'}}]"
-223,Málaga,male,,"[{'id': 188, 'name': 'Javier Gracia Carlos', 'nickname': 'Javi Gracia', 'dob': '1970-05-01', 'country': {'id': 214, 'name': 'Spain'}}]"
-210,Real Sociedad,male,,"[{'id': 86, 'name': 'David Moyes', 'nickname': None, 'dob': '1963-04-25', 'country': {'id': 201, 'name': 'Scotland'}}]"
-222,Villarreal,male,,"[{'id': 211, 'name': 'Marcelino García Toral', 'nickname': 'Marcelino', 'dob': '1965-08-14', 'country': {'id': 214, 'name': 'Spain'}}]"
-214,Espanyol,male,,"[{'id': 576, 'name': 'Sergio González Soriano', 'nickname': 'Sergio', 'dob': '1976-11-10', 'country': {'id': 214, 'name': 'Spain'}}]"
-207,Valencia,male,,"[{'id': 396, 'name': 'Nuno Herlander Simões Espírito Santo', 'nickname': 'Nuno Espírito Santo', 'dob': '1974-01-25', 'country': {'id': 183, 'name': 'Portugal'}}]"
-373,Córdoba CF,male,,"[{'id': 3503, 'name': 'Miroslav Đukić', 'nickname': None, 'dob': '1966-02-19', 'country': {'id': 203, 'name': 'Serbia'}}]"
-1042,Elche,male,,"[{'id': 509, 'name': 'Francisco Escriba Segura', 'nickname': 'Fran Escribá', 'dob': '1965-05-03', 'country': {'id': 214, 'name': 'Spain'}}]"
-221,Levante UD,male,,"[{'id': 1612, 'name': 'Luis Lucas Alcaraz González', 'nickname': 'Lucas Alcaraz', 'dob': '1966-06-21', 'country': {'id': 214, 'name': 'Spain'}}]"
-216,Getafe,male,,"[{'id': 1001036, 'name': 'Juan Eduardo Esnáider Belén', 'nickname': None, 'dob': '1973-03-05', 'country': {'id': 11, 'name': 'Argentina'}}]"
-221,Levante UD,male,,"[{'id': 677, 'name': 'Joan Francesc Ferrer Sicilia', 'nickname': 'Rubí', 'dob': '1970-02-05', 'country': {'id': 214, 'name': 'Spain'}}]"
-1041,Sporting Gijón,male,,"[{'id': 187, 'name': 'Abelardo Fernández Antuña', 'nickname': 'Abelardo', 'dob': '1970-04-19', 'country': {'id': 214, 'name': 'Spain'}}]"
-216,Getafe,male,,"[{'id': 509, 'name': 'Francisco Escriba Segura', 'nickname': 'Fran Escribá', 'dob': '1965-05-03', 'country': {'id': 214, 'name': 'Spain'}}]"
-1049,Granada,male,,"[{'id': 1617, 'name': 'José Ramón Sandoval Huertas', 'nickname': 'José Ramón Sandoval', 'dob': '1968-05-02', 'country': {'id': 214, 'name': 'Spain'}}]"
-218,Real Betis,male,,"[{'id': 5049, 'name': 'Juan Merino Ruíz', 'nickname': 'Juan Merino', 'dob': '1970-08-24', 'country': {'id': 214, 'name': 'Spain'}}]"
-214,Espanyol,male,,"[{'id': 1816, 'name': 'Constantin Gâlcă', 'nickname': None, 'dob': '1972-03-08', 'country': {'id': 187, 'name': 'Romania'}}]"
-215,Athletic Club,male,,"[{'id': 1000960, 'name': 'Carlos Gurpegi Nausia', 'nickname': None, 'dob': '1980-08-19', 'country': {'id': 214, 'name': 'Spain'}}, {'id': 227, 'name': 'Ernesto Valverde Tejedor', 'nickname': 'Ernesto Valverde', 'dob': '1964-02-09', 'country': {'id': 214, 'name': 'Spain'}}]"
-1049,Granada,male,,"[{'id': 226, 'name': 'José Manuel González López', 'nickname': 'José González', 'dob': '1966-10-14', 'country': {'id': 214, 'name': 'Spain'}}]"
-207,Valencia,male,,"[{'id': 618, 'name': 'Francisco Martín Ayestarán Barandiarán', 'nickname': 'Pako Ayestarán', 'dob': '1963-02-05', 'country': {'id': 214, 'name': 'Spain'}}]"
-207,Valencia,male,,"[{'id': 2449, 'name': 'Gary Neville', 'nickname': None, 'dob': '1975-02-18', 'country': {'id': 68, 'name': 'England'}}]"
-1049,Granada,male,,"[{'id': 1001017, 'name': 'Ricardo Miguel Moreira da Costa', 'nickname': 'Ricardo Costa', 'dob': '1981-05-16', 'country': {'id': 183, 'name': 'Portugal'}}, {'id': 226, 'name': 'José Manuel González López', 'nickname': 'José González', 'dob': '1966-10-14', 'country': {'id': 214, 'name': 'Spain'}}]"
-220,Real Madrid,male,,"[{'id': 148, 'name': 'Rafael Benítez Maudes', 'nickname': 'Rafael Benítez', 'dob': '1960-04-16', 'country': {'id': 214, 'name': 'Spain'}}]"
-208,Las Palmas,male,,"[{'id': 745, 'name': 'Francisco Herrera Lorenzo', 'nickname': 'Paco Herrera', 'dob': '1953-12-02', 'country': {'id': 214, 'name': 'Spain'}}]"
-223,Málaga,male,,"[{'id': 4994, 'name': 'Gregorio Manzano Ballesteros', 'nickname': 'Gregorio Manzano', 'dob': '1956-03-11', 'country': {'id': 214, 'name': 'Spain'}}]"
-422,Osasuna,male,,"[{'id': 3196, 'name': 'Javier Aguirre Onaindía', 'nickname': 'Javier Aguirre', 'dob': '1958-12-01', 'country': {'id': 147, 'name': 'Mexico'}}]"
-608,Albacete,male,,"[{'id': 6233, 'name': 'Martín Monteagudo Monteagudo', 'nickname': None, 'dob': '1963-05-10', 'country': {'id': 214, 'name': 'Spain'}}]"
-221,Levante UD,male,,"[{'id': 4986, 'name': 'Bernd Schuster', 'nickname': None, 'dob': '1959-12-22', 'country': {'id': 85, 'name': 'Germany'}}]"
-217,Barcelona,male,,"[{'id': 4953, 'name': 'Frank Rijkaard', 'nickname': None, 'dob': '1962-09-30', 'country': {'id': 160, 'name': 'Netherlands'}}]"
-216,Getafe,male,,"[{'id': 236, 'name': 'Enrique Sánchez Flores', 'nickname': 'Quique Sánchez Flores', 'dob': '1965-02-05', 'country': {'id': 214, 'name': 'Spain'}}]"
-223,Málaga,male,,"[{'id': 4989, 'name': 'Antonio Tapia Flores', 'nickname': 'Antonio Tapia', 'dob': '1959-11-13', 'country': {'id': 214, 'name': 'Spain'}}]"
-206,Deportivo Alavés,male,,
-209,Celta Vigo,male,,"[{'id': 3928, 'name': 'Fernando Vázquez Pena', 'nickname': 'Fernando Vázquez', 'dob': '1954-10-24', 'country': {'id': 214, 'name': 'Spain'}}]"
-1217,Racing Santander,male,,"[{'id': 4959, 'name': 'Manuel Preciado Rebolledo', 'nickname': 'Manuel Preciado', 'dob': '1957-08-28', 'country': {'id': 214, 'name': 'Spain'}}]"
-395,Real Zaragoza,male,,"[{'id': 5042, 'name': 'Víctor Muñoz Manrique', 'nickname': 'Víctor Muñoz', 'dob': '1957-03-15', 'country': {'id': 214, 'name': 'Spain'}}]"
-213,Sevilla,male,,"[{'id': 3899, 'name': 'Juan de la Cruz Ramos Cano', 'nickname': 'Juande Ramos', 'dob': '1954-09-25', 'country': {'id': 214, 'name': 'Spain'}}]"
-215,Athletic Club,male,,"[{'id': 4993, 'name': 'Javier Clemente Lazaro', 'nickname': 'Javier Clemente', 'dob': '1950-03-12', 'country': {'id': 214, 'name': 'Spain'}}]"
-220,Real Madrid,male,,"[{'id': 5046, 'name': 'Fabio Capello', 'nickname': None, 'dob': '1946-06-18', 'country': {'id': 112, 'name': 'Italy'}}]"
-214,Espanyol,male,,"[{'id': 227, 'name': 'Ernesto Valverde Tejedor', 'nickname': 'Ernesto Valverde', 'dob': '1964-02-09', 'country': {'id': 214, 'name': 'Spain'}}]"
-221,Levante UD,male,,"[{'id': 4988, 'name': 'Abel Resino Gómez', 'nickname': None, 'dob': '1960-02-02', 'country': {'id': 214, 'name': 'Spain'}}]"
-219,RC Deportivo La Coruña,male,,"[{'id': 497, 'name': 'Joaquín de Jesús Caparrós Camino', 'nickname': 'Joaquín Caparrós', 'dob': '1955-10-15', 'country': {'id': 214, 'name': 'Spain'}}]"
-395,Real Zaragoza,male,,"[{'id': 1602, 'name': 'Victor Fernández Braulio', 'nickname': 'Víctor Fernández', 'dob': '1960-11-28', 'country': {'id': 214, 'name': 'Spain'}}]"
-207,Valencia,male,,"[{'id': 236, 'name': 'Enrique Sánchez Flores', 'nickname': 'Quique Sánchez Flores', 'dob': '1965-02-05', 'country': {'id': 214, 'name': 'Spain'}}]"
-422,Osasuna,male,,"[{'id': 210, 'name': 'José Ángel Ziganda Lacunza', 'nickname': 'Cuco Ziganda', 'dob': '1966-10-01', 'country': {'id': 214, 'name': 'Spain'}}]"
-216,Getafe,male,,"[{'id': 4986, 'name': 'Bernd Schuster', 'nickname': None, 'dob': '1959-12-22', 'country': {'id': 85, 'name': 'Germany'}}]"
-213,Sevilla,male,,"[{'id': 234, 'name': 'Pablo Javier Machín Díez', 'nickname': 'Pablo Machín', 'dob': '1975-04-07', 'country': {'id': 214, 'name': 'Spain'}}]"
-209,Celta Vigo,male,,"[{'id': 280, 'name': 'José Miguel Azevedo Cardoso', 'nickname': 'Miguel Cardoso', 'dob': '1972-05-28', 'country': {'id': 183, 'name': 'Portugal'}}]"
-901,Real Valladolid,male,,"[{'id': 576, 'name': 'Sergio González Soriano', 'nickname': 'Sergio', 'dob': '1976-11-10', 'country': {'id': 214, 'name': 'Spain'}}]"
-205,Leganés,male,,"[{'id': 681, 'name': 'Mauricio Pellegrino', 'nickname': None, 'dob': '1971-10-05', 'country': {'id': 11, 'name': 'Argentina'}}]"
-221,Levante UD,male,,"[{'id': 219, 'name': 'Francisco José López Fernández', 'nickname': 'Paco López', 'dob': '1967-09-19', 'country': {'id': 214, 'name': 'Spain'}}]"
-902,Huesca,male,,"[{'id': 768, 'name': 'Leonardo Neoren Franco', 'nickname': 'Leo Franco', 'dob': '1977-05-20', 'country': {'id': 11, 'name': 'Argentina'}}]"
-360,Rayo Vallecano,male,,"[{'id': 766, 'name': 'Miguel Ángel Sánchez Muñoz', 'nickname': 'Míchel', 'dob': '1975-10-30', 'country': {'id': 214, 'name': 'Spain'}}]"
-216,Getafe,male,,"[{'id': 4268, 'name': 'José Ignacio Fernández García', 'nickname': 'Nacho Fernández', 'dob': '1973-05-05', 'country': {'id': 214, 'name': 'Spain'}}, {'id': 228, 'name': 'José Bordalás Jiménez', 'nickname': 'Pepe Bordalás', 'dob': '1964-03-05', 'country': {'id': 214, 'name': 'Spain'}}]"
-215,Athletic Club,male,,"[{'id': 385, 'name': 'Manuel Eduardo Berizzo', 'nickname': 'Eduardo Berizzo', 'dob': '1969-11-13', 'country': {'id': 11, 'name': 'Argentina'}}]"
-211,Girona,male,,"[{'id': 229, 'name': 'Eusebio Sacristán Mena', 'nickname': 'Eusebio Sacristán', 'dob': '1964-04-13', 'country': {'id': 214, 'name': 'Spain'}}]"
-214,Espanyol,male,,"[{'id': 677, 'name': 'Joan Francesc Ferrer Sicilia', 'nickname': 'Rubí', 'dob': '1970-02-05', 'country': {'id': 214, 'name': 'Spain'}}]"
-212,Atlético Madrid,male,,"[{'id': 3196, 'name': 'Javier Aguirre Onaindía', 'nickname': 'Javier Aguirre', 'dob': '1958-12-01', 'country': {'id': 147, 'name': 'Mexico'}}]"
-221,Levante UD,male,,"[{'id': 248, 'name': 'Giovanni De Biasi', 'nickname': 'Gianni De Biasi', 'dob': '1956-06-16', 'country': {'id': 112, 'name': 'Italy'}}]"
-403,Almería,male,,"[{'id': 21, 'name': 'Unai Emery Etxegoien', 'nickname': 'Unai Emery', 'dob': '1971-11-03', 'country': {'id': 214, 'name': 'Spain'}}]"
-218,Real Betis,male,,"[{'id': 486, 'name': 'Héctor Raúl Cúper', 'nickname': 'Héctor Cúper', 'dob': '1955-11-16', 'country': {'id': 11, 'name': 'Argentina'}}]"
-1220,Recreativo Huelva,male,,"[{'id': 5042, 'name': 'Víctor Muñoz Manrique', 'nickname': 'Víctor Muñoz', 'dob': '1957-03-15', 'country': {'id': 214, 'name': 'Spain'}}]"
-1217,Racing Santander,male,,"[{'id': 211, 'name': 'Marcelino García Toral', 'nickname': 'Marcelino', 'dob': '1965-08-14', 'country': {'id': 214, 'name': 'Spain'}}]"
-220,Real Madrid,male,,"[{'id': 3899, 'name': 'Juan de la Cruz Ramos Cano', 'nickname': 'Juande Ramos', 'dob': '1954-09-25', 'country': {'id': 214, 'name': 'Spain'}}]"
-1041,Sporting Gijón,male,,"[{'id': 4959, 'name': 'Manuel Preciado Rebolledo', 'nickname': 'Manuel Preciado', 'dob': '1957-08-28', 'country': {'id': 214, 'name': 'Spain'}}]"
-222,Villarreal,male,,"[{'id': 733, 'name': 'Manuel Luis Pellegrini Ripamonti', 'nickname': 'Manuel Pellegrini', 'dob': '1953-09-16', 'country': {'id': 45, 'name': 'Chile'}}]"
-1220,Recreativo Huelva,male,,"[{'id': 1612, 'name': 'Luis Lucas Alcaraz González', 'nickname': 'Lucas Alcaraz', 'dob': '1966-06-21', 'country': {'id': 214, 'name': 'Spain'}}]"
-444,CD Numancia de Soria,male,,"[{'id': 5041, 'name': 'Sergije Krešić Juric', 'nickname': None, 'dob': '1946-11-29', 'country': {'id': 56, 'name': 'Croatia'}}]"
-1217,Racing Santander,male,,"[{'id': 2, 'name': 'Juan Ramón López Muñiz', 'nickname': 'Juan Muñiz', 'dob': '1968-11-02', 'country': {'id': 214, 'name': 'Spain'}}]"
-218,Real Betis,male,,"[{'id': 4956, 'name': 'Francisco Chaparro Jara', 'nickname': 'Paco Chaparro', 'dob': '1942-11-30', 'country': {'id': 214, 'name': 'Spain'}}]"
-901,Real Valladolid,male,,"[{'id': 221, 'name': 'José Luis Mendilibar Etxebarria', 'nickname': 'José Luis Mendilibar', 'dob': '1961-03-14', 'country': {'id': 214, 'name': 'Spain'}}]"
-205,Leganés,male,,"[{'id': 3196, 'name': 'Javier Aguirre Onaindía', 'nickname': 'Javier Aguirre', 'dob': '1958-12-01', 'country': {'id': 147, 'name': 'Mexico'}}]"
-217,Barcelona,male,,"[{'id': 238, 'name': 'Enrique Setién Solar', 'nickname': 'Quique Setién', 'dob': '1958-09-27', 'country': {'id': 214, 'name': 'Spain'}}]"
-1043,Mallorca,male,,"[{'id': 1603, 'name': 'Vicente Moreno Peris', 'nickname': 'Vicente Moreno', 'dob': '1974-10-26', 'country': {'id': 214, 'name': 'Spain'}}]"
-422,Osasuna,male,,"[{'id': 1592, 'name': 'Jagoba Arrasate Elustondo', 'nickname': 'Jagoba Arrasate', 'dob': '1978-04-22', 'country': {'id': 214, 'name': 'Spain'}}]"
-215,Athletic Club,male,,"[{'id': 767, 'name': 'Gaizka Garitano Aguirre', 'nickname': 'Gaizka Garitano', 'dob': '1975-07-09', 'country': {'id': 214, 'name': 'Spain'}}]"
-214,Espanyol,male,,"[{'id': 4978, 'name': 'Francisco Joaquín Pérez Rufete', 'nickname': 'Francisco Rufete', 'dob': '1976-11-20', 'country': {'id': 214, 'name': 'Spain'}}]"
-209,Celta Vigo,male,,"[{'id': 430, 'name': 'Óscar García Junyent', 'nickname': 'Óscar García', 'dob': '1973-04-26', 'country': {'id': 214, 'name': 'Spain'}}]"
-206,Deportivo Alavés,male,,"[{'id': 84, 'name': 'Asier Garitano Aguirrezábal', 'nickname': 'Asier Garitano', 'dob': '1969-12-06', 'country': {'id': 214, 'name': 'Spain'}}]"
-1049,Granada,male,,"[{'id': 1597, 'name': 'Diego Martínez Penas', 'nickname': None, 'dob': '1980-12-16', 'country': {'id': 214, 'name': 'Spain'}}]"
-213,Sevilla,male,,"[{'id': 741, 'name': 'Julen Lopetegui Argote', 'nickname': 'Julen Lopetegui', 'dob': '1966-08-28', 'country': {'id': 214, 'name': 'Spain'}}]"
-217,Barcelona,male,,"[{'id': 676, 'name': 'Ronald Koeman', 'nickname': None, 'dob': '1963-03-21', 'country': {'id': 160, 'name': 'Netherlands'}}]"
-209,Celta Vigo,male,,"[{'id': 2886, 'name': 'Eduardo Germán Coudet', 'nickname': 'Eduardo Coudet', 'dob': '1974-09-12', 'country': {'id': 11, 'name': 'Argentina'}}]"
-222,Villarreal,male,,"[{'id': 21, 'name': 'Unai Emery Etxegoien', 'nickname': 'Unai Emery', 'dob': '1971-11-03', 'country': {'id': 214, 'name': 'Spain'}}]"
-207,Valencia,male,,"[{'id': 188, 'name': 'Javier Gracia Carlos', 'nickname': 'Javi Gracia', 'dob': '1970-05-01', 'country': {'id': 214, 'name': 'Spain'}}]"
-902,Huesca,male,,"[{'id': 1605, 'name': 'Juan José Rojo Martín', 'nickname': 'Pacheta', 'dob': '1968-03-23', 'country': {'id': 214, 'name': 'Spain'}}]"
-215,Athletic Club,male,,"[{'id': 211, 'name': 'Marcelino García Toral', 'nickname': 'Marcelino', 'dob': '1965-08-14', 'country': {'id': 214, 'name': 'Spain'}}]"
-552,Cádiz,male,,"[{'id': 1598, 'name': 'Álvaro Cervera Díaz', 'nickname': 'Álvaro Cervera', 'dob': '1965-09-20', 'country': {'id': 214, 'name': 'Spain'}}]"
-218,Real Betis,male,,"[{'id': 733, 'name': 'Manuel Luis Pellegrini Ripamonti', 'nickname': 'Manuel Pellegrini', 'dob': '1953-09-16', 'country': {'id': 45, 'name': 'Chile'}}]"
-488,Seattle Sounders,male,,
-230,Udinese,male,,"[{'id': 1003077, 'name': 'Luigi De Canio', 'nickname': None, 'dob': '1957-09-26', 'country': {'id': 112, 'name': 'Italy'}}]"
-230,Udinese,male,,"[{'id': 1000693, 'name': 'Stefano Colantuono', 'nickname': None, 'dob': '1962-10-23', 'country': {'id': 112, 'name': 'Italy'}}]"
-241,Torino,male,,"[{'id': 710, 'name': 'Gian Piero Ventura\t', 'nickname': None, 'dob': '1948-01-14', 'country': {'id': 112, 'name': 'Italy'}}]"
-227,Napoli,male,,"[{'id': 388, 'name': 'Maurizio Sarri', 'nickname': None, 'dob': '1959-01-10', 'country': {'id': 112, 'name': 'Italy'}}]"
-290,Empoli,male,,"[{'id': 605, 'name': 'Marco Giampaolo', 'nickname': None, 'dob': '1967-08-02', 'country': {'id': 112, 'name': 'Italy'}}]"
-239,Fiorentina,male,,"[{'id': 1798, 'name': 'Paulo Manuel Carvalho de Sousa', 'nickname': 'Paulo Sousa', 'dob': '1970-08-30', 'country': {'id': 183, 'name': 'Portugal'}}]"
-228,Atalanta,male,,"[{'id': 3567, 'name': 'Edoardo Reja', 'nickname': None, 'dob': '1945-10-10', 'country': {'id': 112, 'name': 'Italy'}}]"
-240,Bologna,male,,"[{'id': 136, 'name': 'Roberto Donadoni', 'nickname': None, 'dob': '1963-09-09', 'country': {'id': 112, 'name': 'Italy'}}]"
-234,Sampdoria,male,,"[{'id': 232, 'name': 'Vincenzo Montella', 'nickname': None, 'dob': '1974-06-18', 'country': {'id': 112, 'name': 'Italy'}}]"
-243,AC Milan,male,,"[{'id': 379, 'name': 'Siniša Mihajlović', 'nickname': None, 'dob': '1969-02-20', 'country': {'id': 203, 'name': 'Serbia'}}]"
-231,Chievo,male,,"[{'id': 114, 'name': 'Rolando Maran', 'nickname': None, 'dob': '1963-07-14', 'country': {'id': 112, 'name': 'Italy'}}]"
-232,Sassuolo,male,,"[{'id': 107, 'name': 'Eusebio Di Francesco', 'nickname': None, 'dob': '1969-09-08', 'country': {'id': 112, 'name': 'Italy'}}]"
-238,Inter Milan,male,,"[{'id': 2997, 'name': 'Roberto Mancini', 'nickname': None, 'dob': '1964-11-27', 'country': {'id': 112, 'name': 'Italy'}}]"
-233,Genoa,male,,"[{'id': 402, 'name': 'Gian Piero Gasperini', 'nickname': None, 'dob': '1958-01-26', 'country': {'id': 112, 'name': 'Italy'}}]"
-229,AS Roma,male,,"[{'id': 265, 'name': 'Rudi Garcia', 'nickname': None, 'dob': '1964-02-20', 'country': {'id': 78, 'name': 'France'}}]"
-236,Lazio,male,,"[{'id': 384, 'name': 'Simone Inzaghi', 'nickname': None, 'dob': '1976-04-05', 'country': {'id': 112, 'name': 'Italy'}}]"
-224,Juventus,male,,"[{'id': 181, 'name': 'Massimiliano Allegri', 'nickname': None, 'dob': '1967-08-11', 'country': {'id': 112, 'name': 'Italy'}}]"
-1683,Carpi,male,,"[{'id': 4149, 'name': 'Fabrizio Castori', 'nickname': None, 'dob': '1954-07-11', 'country': {'id': 112, 'name': 'Italy'}}]"
-2256,Palermo,male,,"[{'id': 1002925, 'name': 'Walter Novellino', 'nickname': None, 'dob': '1953-06-04', 'country': {'id': 112, 'name': 'Italy'}}]"
-229,AS Roma,male,,"[{'id': 399, 'name': 'Luciano Spalletti', 'nickname': None, 'dob': '1959-03-07', 'country': {'id': 112, 'name': 'Italy'}}]"
-291,Frosinone,male,,"[{'id': 3282, 'name': 'Roberto Stellone', 'nickname': None, 'dob': '1977-07-22', 'country': {'id': 112, 'name': 'Italy'}}]"
-226,Hellas Verona,male,,"[{'id': 664, 'name': 'Luigi Delneri', 'nickname': None, 'dob': '1950-08-23', 'country': {'id': 112, 'name': 'Italy'}}]"
-2256,Palermo,male,,"[{'id': 102, 'name': 'Giuseppe Iachini', 'nickname': None, 'dob': '1964-05-07', 'country': {'id': 112, 'name': 'Italy'}}]"
-236,Lazio,male,,"[{'id': 436, 'name': 'Stefano Pioli', 'nickname': None, 'dob': '1965-10-20', 'country': {'id': 112, 'name': 'Italy'}}]"
-2256,Palermo,male,,"[{'id': 625, 'name': 'Davide Ballardini', 'nickname': None, 'dob': '1964-01-06', 'country': {'id': 112, 'name': 'Italy'}}]"
-226,Hellas Verona,male,,"[{'id': 4071, 'name': 'Andrea Mandorlini', 'nickname': None, 'dob': '1960-07-17', 'country': {'id': 112, 'name': 'Italy'}}]"
-234,Sampdoria,male,,"[{'id': 273, 'name': 'Walter Zenga', 'nickname': None, 'dob': '1960-04-28', 'country': {'id': 112, 'name': 'Italy'}}]"
-243,AC Milan,male,,"[{'id': 4424, 'name': 'Cristian Brocchi', 'nickname': None, 'dob': '1976-01-30', 'country': {'id': 112, 'name': 'Italy'}}]"
-2256,Palermo,male,,"[{'id': 710, 'name': 'Gian Piero Ventura\t', 'nickname': None, 'dob': '1948-01-14', 'country': {'id': 112, 'name': 'Italy'}}]"
-2256,Palermo,male,,"[{'id': 4159, 'name': 'Giovanni Tedesco', 'nickname': None, 'dob': '1972-05-13', 'country': {'id': 112, 'name': 'Italy'}}]"
-2256,Palermo,male,,"[{'id': 1002922, 'name': 'Fabio Viviani', 'nickname': None, 'dob': '1966-09-29', 'country': {'id': 112, 'name': 'Italy'}}]"
-226,Hellas Verona,male,,"[{'id': 1001978, 'name': 'Leandro Greco', 'nickname': None, 'dob': '1986-07-19', 'country': {'id': 112, 'name': 'Italy'}}, {'id': 664, 'name': 'Luigi Delneri', 'nickname': None, 'dob': '1950-08-23', 'country': {'id': 112, 'name': 'Italy'}}]"
-1683,Carpi,male,,"[{'id': 484, 'name': 'Giuseppe Sannino', 'nickname': None, 'dob': '1957-04-30', 'country': {'id': 112, 'name': 'Italy'}}]"
-240,Bologna,male,,"[{'id': 5445, 'name': 'Delio Rossi', 'nickname': None, 'dob': '1960-01-26', 'country': {'id': 112, 'name': 'Italy'}}]"
-227,Napoli,male,,"[{'id': 1001756, 'name': 'Ottavio Bianchi', 'nickname': None, 'dob': '1943-10-06', 'country': {'id': 112, 'name': 'Italy'}}]"
-7283,Kerala Blasters,male,,"[{'id': 1000614, 'name': 'Ivan Vukomanović', 'nickname': None, 'dob': '1977-06-19', 'country': {'id': 203, 'name': 'Serbia'}}]"
-2021,Jamshedpur,male,,"[{'id': 1000617, 'name': 'Owen Columba Coyle', 'nickname': None, 'dob': '1966-07-14', 'country': {'id': 201, 'name': 'Scotland'}}]"
-7289,Hyderabad,male,,"[{'id': 503, 'name': 'Manuel Márquez Roca', 'nickname': 'Manolo Márquez', 'dob': '1968-09-07', 'country': {'id': 214, 'name': 'Spain'}}]"
-7282,ATK Mohun Bagan,male,,"[{'id': 2815, 'name': 'Juan Ferrando Fenol', 'nickname': 'Juan Ferrando', 'dob': '1981-01-02', 'country': {'id': 214, 'name': 'Spain'}}]"
-7284,Bengaluru,male,,"[{'id': 1000615, 'name': 'Marco Pezzaiuoli', 'nickname': None, 'dob': '1968-11-16', 'country': {'id': 85, 'name': 'Germany'}}]"
-7291,Odisha,male,,"[{'id': 1000992, 'name': 'Joaquín García', 'nickname': None, 'dob': None, 'country': {'id': 214, 'name': 'Spain'}}]"
-7287,Mumbai City,male,,"[{'id': 1000803, 'name': 'Des Buckingham', 'nickname': None, 'dob': '1985-02-07', 'country': {'id': 68, 'name': 'England'}}]"
-7288,Goa,male,,"[{'id': 1000942, 'name': 'Derrick Pereira', 'nickname': None, 'dob': '1962-03-16', 'country': {'id': 105, 'name': 'India'}}]"
-7290,Chennaiyin,male,,"[{'id': 1001087, 'name': 'Syed Sabir Pasha', 'nickname': None, 'dob': '1972-11-05', 'country': {'id': 105, 'name': 'India'}}]"
-7286,East Bengal,male,,"[{'id': 1000962, 'name': 'Mario Rivera Campesino', 'nickname': 'Mario Rivera', 'dob': '1977-08-13', 'country': {'id': 214, 'name': 'Spain'}}]"
-7285,NorthEast United,male,,"[{'id': 1000616, 'name': 'Khalid Ahmed Jamil', 'nickname': None, 'dob': '1977-04-21', 'country': {'id': 105, 'name': 'India'}}]"
-7290,Chennaiyin,male,,"[{'id': 1000842, 'name': 'Božidar Bandović', 'nickname': None, 'dob': '1969-08-30', 'country': {'id': 203, 'name': 'Serbia'}}]"
-7286,East Bengal,male,,"[{'id': 1000817, 'name': 'José Manuel Díaz Fernández', 'nickname': 'Manolo Díaz', 'dob': '1968-08-30', 'country': {'id': 214, 'name': 'Spain'}}]"
-7291,Odisha,male,,"[{'id': 3554, 'name': 'Francisco Ramírez González', 'nickname': 'Kiko Ramírez', 'dob': '1970-07-14', 'country': {'id': 214, 'name': 'Spain'}}]"
-7282,ATK Mohun Bagan,male,,"[{'id': 1000613, 'name': 'Antonio López Habas', 'nickname': 'Antonio López', 'dob': '1957-05-28', 'country': {'id': 214, 'name': 'Spain'}}]"
-7288,Goa,male,,"[{'id': 2815, 'name': 'Juan Ferrando Fenol', 'nickname': 'Juan Ferrando', 'dob': '1981-01-02', 'country': {'id': 214, 'name': 'Spain'}}]"
-17403,Soviet Union U20,male,,"[{'id': 1003287, 'name': 'Sergey Korshunov', 'nickname': None, 'dob': '1928-10-08', 'country': {'id': 188, 'name': 'Russia'}}]"
-24,Liverpool,male,,"[{'id': 94, 'name': 'Jürgen Klopp', 'nickname': None, 'dob': '1967-06-16', 'country': {'id': 85, 'name': 'Germany'}}]"
-238,Inter Milan,male,,"[{'id': 383, 'name': 'José Mario Felix dos Santos Mourinho', 'nickname': 'José Mourinho', 'dob': '1963-01-26', 'country': {'id': 183, 'name': 'Portugal'}}]"
-39,Manchester United,male,,"[{'id': 790, 'name': 'Alex Ferguson', 'nickname': None, 'dob': '1941-12-31', 'country': {'id': 201, 'name': 'Scotland'}}]"
-33,Chelsea,male,,"[{'id': 789, 'name': 'Roberto Di Matteo', 'nickname': None, 'dob': '1970-05-29', 'country': {'id': 112, 'name': 'Italy'}}]"
-169,Bayern Munich,male,,"[{'id': 444, 'name': 'Josef Heynckes', 'nickname': None, 'dob': '1945-05-09', 'country': {'id': 85, 'name': 'Germany'}}]"
-952,Panathinaikos,male,,"[{'id': 1003271, 'name': 'Ferenc Puskás', 'nickname': None, 'dob': '1927-04-01', 'country': {'id': 103, 'name': 'Hungary'}}]"
-224,Juventus,male,,"[{'id': 1003281, 'name': 'Cestmir Vycpalek', 'nickname': None, 'dob': '1921-05-15', 'country': {'id': 60, 'name': 'Czech Republic'}}]"
-24,Liverpool,male,,
-24,Liverpool,male,,"[{'id': 148, 'name': 'Rafael Benítez Maudes', 'nickname': 'Rafael Benítez', 'dob': '1960-04-16', 'country': {'id': 214, 'name': 'Spain'}}]"
-256,FC Porto,male,,
-238,Inter Milan,male,,
-28,AFC Bournemouth,male,,"[{'id': 38, 'name': 'Eddie Howe', 'nickname': None, 'dob': '1977-11-29', 'country': {'id': 68, 'name': 'England'}}]"
-41,Sunderland,male,,"[{'id': 561, 'name': 'Sam Allardyce', 'nickname': None, 'dob': '1954-10-19', 'country': {'id': 68, 'name': 'England'}}]"
-59,Aston Villa,male,,"[{'id': 92, 'name': 'Rémi Garde', 'nickname': None, 'dob': '1966-04-03', 'country': {'id': 78, 'name': 'France'}}]"
-23,Watford,male,,"[{'id': 236, 'name': 'Enrique Sánchez Flores', 'nickname': 'Quique Sánchez Flores', 'dob': '1965-02-05', 'country': {'id': 214, 'name': 'Spain'}}]"
-59,Aston Villa,male,,"[{'id': 5020, 'name': 'Eric Black', 'nickname': None, 'dob': '1963-10-01', 'country': {'id': 201, 'name': 'Scotland'}}]"
-36,Manchester City,male,,"[{'id': 733, 'name': 'Manuel Luis Pellegrini Ripamonti', 'nickname': 'Manuel Pellegrini', 'dob': '1953-09-16', 'country': {'id': 45, 'name': 'Chile'}}]"
-29,Everton,male,,"[{'id': 263, 'name': 'Roberto Martínez Montoliú', 'nickname': 'Roberto Martínez', 'dob': '1973-07-13', 'country': {'id': 214, 'name': 'Spain'}}]"
-56,Norwich City,male,,"[{'id': 41, 'name': 'Alex Neil', 'nickname': None, 'dob': '1981-06-09', 'country': {'id': 201, 'name': 'Scotland'}}]"
-31,Crystal Palace,male,,"[{'id': 382, 'name': 'Alan Pardew', 'nickname': None, 'dob': '1961-07-18', 'country': {'id': 68, 'name': 'England'}}]"
-38,Tottenham Hotspur,male,,"[{'id': 81, 'name': 'Mauricio Roberto Pochettino Trossero', 'nickname': 'Mauricio Pochettino', 'dob': '1972-03-02', 'country': {'id': 11, 'name': 'Argentina'}}]"
-33,Chelsea,male,,"[{'id': 3608, 'name': 'Guus Hiddink', 'nickname': None, 'dob': '1946-11-08', 'country': {'id': 160, 'name': 'Netherlands'}}]"
-39,Manchester United,male,,"[{'id': 788, 'name': 'Louis van Gaal', 'nickname': None, 'dob': '1951-08-08', 'country': {'id': 160, 'name': 'Netherlands'}}]"
-33,Chelsea,male,,"[{'id': 383, 'name': 'José Mario Felix dos Santos Mourinho', 'nickname': 'José Mourinho', 'dob': '1963-01-26', 'country': {'id': 183, 'name': 'Portugal'}}]"
-22,Leicester City,male,,"[{'id': 60, 'name': 'Claudio Ranieri', 'nickname': None, 'dob': '1951-10-20', 'country': {'id': 112, 'name': 'Italy'}}]"
-40,West Ham United,male,,"[{'id': 150, 'name': 'Slaven Bilić', 'nickname': None, 'dob': '1968-09-11', 'country': {'id': 56, 'name': 'Croatia'}}]"
-27,West Bromwich Albion,male,,"[{'id': 300, 'name': 'Tony Pulis', 'nickname': None, 'dob': '1958-01-16', 'country': {'id': 249, 'name': 'Wales'}}]"
-26,Swansea City,male,,"[{'id': 270, 'name': 'Garry Monk', 'nickname': None, 'dob': '1979-03-06', 'country': {'id': 68, 'name': 'England'}}]"
-1,Arsenal,male,,"[{'id': 577, 'name': 'Arsène Wenger', 'nickname': None, 'dob': '1949-10-22', 'country': {'id': 78, 'name': 'France'}}]"
-41,Sunderland,male,,"[{'id': 453, 'name': 'Dick Advocaat', 'nickname': None, 'dob': '1947-09-27', 'country': {'id': 160, 'name': 'Netherlands'}}]"
-59,Aston Villa,male,,"[{'id': 330, 'name': 'Kevin MacDonald', 'nickname': None, 'dob': '1960-11-22', 'country': {'id': 201, 'name': 'Scotland'}}]"
-25,Southampton,male,,"[{'id': 676, 'name': 'Ronald Koeman', 'nickname': None, 'dob': '1963-03-21', 'country': {'id': 160, 'name': 'Netherlands'}}]"
-30,Stoke City,male,,"[{'id': 55, 'name': 'Mark Hughes', 'nickname': None, 'dob': '1963-11-01', 'country': {'id': 249, 'name': 'Wales'}}]"
-37,Newcastle United,male,,"[{'id': 40, 'name': 'Steve McClaren', 'nickname': None, 'dob': '1961-05-03', 'country': {'id': 68, 'name': 'England'}}]"
-24,Liverpool,male,,"[{'id': 6, 'name': 'Brendan Rodgers', 'nickname': None, 'dob': '1973-01-26', 'country': {'id': 169, 'name': 'Northern Ireland'}}]"
-59,Aston Villa,male,,"[{'id': 5003, 'name': 'Tim Sherwood', 'nickname': None, 'dob': '1969-02-06', 'country': {'id': 68, 'name': 'England'}}]"
-26,Swansea City,male,,"[{'id': 4711, 'name': 'Alan Curtis', 'nickname': None, 'dob': '1954-04-16', 'country': {'id': 249, 'name': 'Wales'}}]"
-26,Swansea City,male,,"[{'id': 3626, 'name': 'Francesco Guidolin', 'nickname': None, 'dob': '1955-10-03', 'country': {'id': 112, 'name': 'Italy'}}]"
-26,Swansea City,male,,"[{'id': 4711, 'name': 'Alan Curtis', 'nickname': None, 'dob': '1954-04-16', 'country': {'id': 249, 'name': 'Wales'}}, {'id': 3626, 'name': 'Francesco Guidolin', 'nickname': None, 'dob': '1955-10-03', 'country': {'id': 112, 'name': 'Italy'}}]"
-37,Newcastle United,male,,"[{'id': 148, 'name': 'Rafael Benítez Maudes', 'nickname': 'Rafael Benítez', 'dob': '1960-04-16', 'country': {'id': 214, 'name': 'Spain'}}]"
-46,Wolverhampton Wanderers,male,,"[{'id': 3602, 'name': 'Dave Jones', 'nickname': None, 'dob': '1956-08-17', 'country': {'id': 68, 'name': 'England'}}]"
-22,Leicester City,male,,"[{'id': 2974, 'name': 'Micky Adams', 'nickname': None, 'dob': '1961-11-08', 'country': {'id': 68, 'name': 'England'}}]"
-75,Charlton Athletic,male,,"[{'id': 3407, 'name': 'Alan Curbishley', 'nickname': None, 'dob': '1957-11-08', 'country': {'id': 68, 'name': 'England'}}]"
-1,Arsenal,male,,
-33,Chelsea,male,,"[{'id': 60, 'name': 'Claudio Ranieri', 'nickname': None, 'dob': '1951-10-20', 'country': {'id': 112, 'name': 'Italy'}}]"
-37,Newcastle United,male,,"[{'id': 3404, 'name': 'Bobby Robson', 'nickname': None, 'dob': '1933-02-18', 'country': {'id': 68, 'name': 'England'}}]"
-36,Manchester City,male,,"[{'id': 4202, 'name': 'Kevin Joseph Keegan', 'nickname': 'Kevin Keegan', 'dob': '1951-02-14', 'country': {'id': 68, 'name': 'England'}}]"
-54,Birmingham City,male,,"[{'id': 37, 'name': 'Steve Bruce', 'nickname': None, 'dob': '1960-12-31', 'country': {'id': 68, 'name': 'England'}}]"
-105,Portsmouth,male,,"[{'id': 749, 'name': 'Harry Redknapp', 'nickname': None, 'dob': '1947-03-02', 'country': {'id': 68, 'name': 'England'}}]"
-29,Everton,male,,"[{'id': 86, 'name': 'David Moyes', 'nickname': None, 'dob': '1963-04-25', 'country': {'id': 201, 'name': 'Scotland'}}]"
-55,Fulham,male,,"[{'id': 403, 'name': 'Chris Coleman', 'nickname': 'Óscar Pareja', 'dob': '1970-06-10', 'country': {'id': 249, 'name': 'Wales'}}]"
-38,Tottenham Hotspur,male,,"[{'id': 3533, 'name': 'David Pleat', 'nickname': None, 'dob': '1945-01-15', 'country': {'id': 68, 'name': 'England'}}]"
-98,Blackburn Rovers,male,,"[{'id': 3548, 'name': 'Graeme Souness', 'nickname': None, 'dob': '1953-05-06', 'country': {'id': 201, 'name': 'Scotland'}}]"
-101,Leeds United,male,,"[{'id': 3029, 'name': 'Eddie Gray', 'nickname': None, 'dob': '1948-01-17', 'country': {'id': 201, 'name': 'Scotland'}}]"
-25,Southampton,male,,"[{'id': 3722, 'name': 'Gordon Strachan', 'nickname': None, 'dob': '1957-02-09', 'country': {'id': 201, 'name': 'Scotland'}}]"
-59,Aston Villa,male,,"[{'id': 6094, 'name': ""David O''Leary"", 'nickname': None, 'dob': '1958-05-02', 'country': {'id': 109, 'name': 'Ireland'}}]"
-47,Middlesbrough,male,,"[{'id': 40, 'name': 'Steve McClaren', 'nickname': None, 'dob': '1961-05-03', 'country': {'id': 68, 'name': 'England'}}]"
-328,Bolton Wanderers,male,,"[{'id': 561, 'name': 'Sam Allardyce', 'nickname': None, 'dob': '1954-10-19', 'country': {'id': 68, 'name': 'England'}}]"
-174,VfB Stuttgart,male,,"[{'id': 1003286, 'name': 'Arie Haan', 'nickname': None, 'dob': '1948-11-16', 'country': {'id': 85, 'name': 'Germany'}}]"
-169,Bayern Munich,male,,
-1076,Juventus,male,,"[{'id': 6100, 'name': 'Dino Zoff', 'nickname': None, 'dob': '1942-02-28', 'country': {'id': 112, 'name': 'Italy'}}]"
-968,Arsenal WFC,female,,"[{'id': 31, 'name': 'Joseph Montemurro', 'nickname': None, 'dob': '1969-09-13', 'country': {'id': 14, 'name': 'Australia'}}]"
-971,Chelsea FCW,female,,"[{'id': 152, 'name': 'Emma Hayes', 'nickname': None, 'dob': '1976-10-18', 'country': {'id': 68, 'name': 'England'}}]"
-974,Reading WFC,female,,"[{'id': 144, 'name': 'Kelly Chambers', 'nickname': None, 'dob': '1986-01-11', 'country': {'id': 68, 'name': 'England'}}]"
-972,West Ham United LFC,female,,"[{'id': 139, 'name': 'Matt Beard', 'nickname': None, 'dob': '1978-01-09', 'country': {'id': 68, 'name': 'England'}}]"
-969,Birmingham City WFC,female,,"[{'id': 128, 'name': 'Marc Skinner', 'nickname': None, 'dob': '1983-03-23', 'country': {'id': 68, 'name': 'England'}}]"
-970,Yeovil Town LFC,female,,"[{'id': 147, 'name': 'Lee Burch', 'nickname': None, 'dob': '1984-06-21', 'country': {'id': 68, 'name': 'England'}}]"
-965,Brighton & Hove Albion WFC,female,,"[{'id': 149, 'name': 'Hope Patricia Powell', 'nickname': 'Hope Powell', 'dob': '1966-12-08', 'country': {'id': 68, 'name': 'England'}}]"
-973,Bristol City WFC,female,,"[{'id': 143, 'name': 'Tanya Oxtoby', 'nickname': None, 'dob': '1982-06-15', 'country': {'id': 14, 'name': 'Australia'}}]"
-966,Liverpool WFC,female,,"[{'id': 154, 'name': 'Neil Redfearn', 'nickname': None, 'dob': '1965-06-20', 'country': {'id': 68, 'name': 'England'}}]"
-967,Everton LFC,female,,"[{'id': 146, 'name': 'Andy Spence', 'nickname': None, 'dob': '1983-01-08', 'country': {'id': 68, 'name': 'England'}}]"
-966,Liverpool WFC,female,,"[{'id': 153, 'name': 'Chris Kirkland', 'nickname': None, 'dob': '1981-05-02', 'country': {'id': 68, 'name': 'England'}}]"
-746,Manchester City WFC,female,,"[{'id': 30, 'name': 'Nick Cushing', 'nickname': None, 'dob': '1984-11-09', 'country': {'id': 68, 'name': 'England'}}]"
-966,Liverpool WFC,female,,"[{'id': 623, 'name': 'Victoria Jepson', 'nickname': None, 'dob': '1987-02-23', 'country': {'id': 68, 'name': 'England'}}]"
-969,Birmingham City WFC,female,,"[{'id': 1817, 'name': 'Marta Tejedor', 'nickname': None, 'dob': '1968-12-23', 'country': {'id': 45, 'name': 'Chile'}}]"
-967,Everton LFC,female,,"[{'id': 639, 'name': 'Willie Kirk', 'nickname': None, 'dob': '1978-06-07', 'country': {'id': 201, 'name': 'Scotland'}}]"
-1475,Manchester United,female,,"[{'id': 2926, 'name': 'Casey Stoney', 'nickname': None, 'dob': '1982-05-13', 'country': {'id': 68, 'name': 'England'}}]"
-749,Tottenham Hotspur Women,female,,"[{'id': 791, 'name': 'Karen Hills', 'nickname': None, 'dob': '1975-05-05', 'country': {'id': 68, 'name': 'England'}}]"
-972,West Ham United LFC,female,,"[{'id': 5650, 'name': 'Olli Harder', 'nickname': None, 'dob': '1986-01-31', 'country': {'id': 163, 'name': 'New Zealand'}}]"
-749,Tottenham Hotspur Women,female,,"[{'id': 5389, 'name': 'Rehanne Skinner', 'nickname': None, 'dob': '1979-11-13', 'country': {'id': 68, 'name': 'England'}}]"
-2647,Aston Villa,female,,"[{'id': 5424, 'name': 'Marcus Bignot', 'nickname': None, 'dob': '1974-08-22', 'country': {'id': 68, 'name': 'England'}}]"
-969,Birmingham City WFC,female,,"[{'id': 3978, 'name': 'Carla Ward', 'nickname': None, 'dob': '1982-12-21', 'country': {'id': 68, 'name': 'England'}}]"
-746,Manchester City WFC,female,,"[{'id': 5115, 'name': 'Gareth Taylor', 'nickname': None, 'dob': '1973-02-25', 'country': {'id': 249, 'name': 'Wales'}}]"
-2647,Aston Villa,female,,"[{'id': 4173, 'name': 'Gemma Davies', 'nickname': None, 'dob': None, 'country': {'id': 68, 'name': 'England'}}]"
-972,West Ham United LFC,female,,"[{'id': 5573, 'name': 'Billy Stewart', 'nickname': None, 'dob': '1965-01-01', 'country': {'id': 68, 'name': 'England'}}]"
-973,Bristol City WFC,female,,"[{'id': 139, 'name': 'Matt Beard', 'nickname': None, 'dob': '1978-01-09', 'country': {'id': 68, 'name': 'England'}}]"
-773,Switzerland,male,G,"[{'id': 2832, 'name': 'Murat Yakin', 'nickname': None, 'dob': '1974-09-15', 'country': {'id': 221, 'name': 'Switzerland'}}]"
-792,Australia,male,,"[{'id': 5696, 'name': 'Graham James Arnold', 'nickname': None, 'dob': '1963-08-03', 'country': {'id': 14, 'name': 'Australia'}}]"
-776,Denmark,male,D,"[{'id': 255, 'name': 'Kasper Hjulmand', 'nickname': None, 'dob': '1972-04-09', 'country': {'id': 61, 'name': 'Denmark'}}]"
-786,Serbia,male,G,"[{'id': 5908, 'name': 'Dragan Stojković', 'nickname': None, 'dob': '1965-03-03', 'country': {'id': 203, 'name': 'Serbia'}}]"
-792,Australia,male,D,"[{'id': 5696, 'name': 'Graham James Arnold', 'nickname': None, 'dob': '1963-08-03', 'country': {'id': 14, 'name': 'Australia'}}]"
-787,Senegal,male,A,"[{'id': 635, 'name': 'Aliou Cissé', 'nickname': None, 'dob': '1976-03-24', 'country': {'id': 202, 'name': 'Senegal'}}]"
-779,Argentina,male,,"[{'id': 5677, 'name': 'Lionel Sebastián Scaloni', 'nickname': None, 'dob': '1978-05-16', 'country': {'id': 11, 'name': 'Argentina'}}]"
-791,South Korea,male,H,"[{'id': 5688, 'name': 'Paulo Jorge Gomes Bento', 'nickname': 'Paulo Bento', 'dob': '1969-06-20', 'country': {'id': 183, 'name': 'Portugal'}}]"
-780,Portugal,male,,"[{'id': 607, 'name': 'Fernando Manuel Fernandes da Costa Santos', 'nickname': 'Fernando Santos', 'dob': '1954-10-10', 'country': {'id': 183, 'name': 'Portugal'}}]"
-771,France,male,,"[{'id': 545, 'name': 'Didier Deschamps', 'nickname': None, 'dob': '1968-10-15', 'country': {'id': 78, 'name': 'France'}}]"
-794,Mexico,male,C,"[{'id': 163, 'name': 'Gerardo Daniel Martino', 'nickname': 'Gerardo Martino', 'dob': '1962-11-20', 'country': {'id': 11, 'name': 'Argentina'}}]"
-779,Argentina,male,C,"[{'id': 5677, 'name': 'Lionel Sebastián Scaloni', 'nickname': None, 'dob': '1978-05-16', 'country': {'id': 11, 'name': 'Argentina'}}]"
-3566,Qatar,male,A,"[{'id': 5710, 'name': 'Félix Sánchez Bas', 'nickname': 'Félix Sánchez', 'dob': '1975-12-13', 'country': {'id': 214, 'name': 'Spain'}}]"
-773,Switzerland,male,,"[{'id': 2832, 'name': 'Murat Yakin', 'nickname': None, 'dob': '1974-09-15', 'country': {'id': 221, 'name': 'Switzerland'}}]"
-787,Senegal,male,,"[{'id': 635, 'name': 'Aliou Cissé', 'nickname': None, 'dob': '1976-03-24', 'country': {'id': 202, 'name': 'Senegal'}}]"
-788,Morocco,male,,"[{'id': 1001086, 'name': 'Hoalid Regragui', 'nickname': None, 'dob': '1975-09-23', 'country': {'id': 154, 'name': 'Morocco'}}]"
-785,Croatia,male,,"[{'id': 307, 'name': 'Zlatko Dalić', 'nickname': None, 'dob': '1966-10-26', 'country': {'id': 56, 'name': 'Croatia'}}]"
-781,Brazil,male,,"[{'id': 4704, 'name': 'Telê Santana da Silva', 'nickname': 'Telê Santana', 'dob': '1931-07-26', 'country': {'id': 31, 'name': 'Brazil'}}]"
-772,Spain,male,,"[{'id': 793, 'name': 'Luis Enrique Martínez García', 'nickname': 'Luis Enrique', 'dob': '1970-05-08', 'country': {'id': 214, 'name': 'Spain'}}]"
-791,South Korea,male,,"[{'id': 5688, 'name': 'Paulo Jorge Gomes Bento', 'nickname': 'Paulo Bento', 'dob': '1969-06-20', 'country': {'id': 183, 'name': 'Portugal'}}]"
-789,Poland,male,,"[{'id': 5294, 'name': 'Czesław Michniewicz', 'nickname': None, 'dob': '1970-02-12', 'country': {'id': 182, 'name': 'Poland'}}]"
-1839,United States,male,,"[{'id': 93, 'name': 'Gregg Berhalter', 'nickname': None, 'dob': '1973-08-01', 'country': {'id': 241, 'name': 'United States of America'}}]"
-783,Uruguay,male,H,"[{'id': 3633, 'name': 'Diego Martín Alonso López', 'nickname': 'Diego Alonso', 'dob': '1975-04-16', 'country': {'id': 242, 'name': 'Uruguay'}}]"
-770,Germany,male,E,"[{'id': 3371, 'name': 'Hans-Dieter Flick', 'nickname': None, 'dob': '1965-02-24', 'country': {'id': 85, 'name': 'Germany'}}]"
-795,Costa Rica,male,E,"[{'id': 3094, 'name': 'Luis Fernando Suárez Guzman', 'nickname': 'Luis Fernando Suárez', 'dob': '1959-12-23', 'country': {'id': 49, 'name': 'Colombia'}}]"
-788,Morocco,male,F,"[{'id': 1000518, 'name': 'Walid Regragui', 'nickname': None, 'dob': '1975-09-23', 'country': {'id': 154, 'name': 'Morocco'}}]"
-778,Japan,male,E,"[{'id': 5699, 'name': 'Hajime Moriyasu', 'nickname': None, 'dob': '1968-08-23', 'country': {'id': 114, 'name': 'Japan'}}]"
-907,Wales,male,B,"[{'id': 1000471, 'name': 'Robert Page', 'nickname': None, 'dob': '1974-09-03', 'country': {'id': 249, 'name': 'Wales'}}]"
-3565,Ecuador,male,A,"[{'id': 2881, 'name': 'Gustavo Julio Alfaro', 'nickname': 'Gustavo Alfaro', 'dob': '1962-08-14', 'country': {'id': 11, 'name': 'Argentina'}}]"
-799,Saudi Arabia,male,C,"[{'id': 642, 'name': 'Hervé Renard', 'nickname': None, 'dob': '1968-09-30', 'country': {'id': 78, 'name': 'France'}}]"
-4885,Ghana,male,H,"[{'id': 1001251, 'name': 'Otto Addo', 'nickname': None, 'dob': '1975-06-09', 'country': {'id': 86, 'name': 'Ghana'}}]"
-782,Belgium,male,F,"[{'id': 263, 'name': 'Roberto Martínez Montoliú', 'nickname': 'Roberto Martínez', 'dob': '1973-07-13', 'country': {'id': 214, 'name': 'Spain'}}]"
-2722,Cameroon,male,G,"[{'id': 1001250, 'name': 'Rigobert Song Bahanag', 'nickname': None, 'dob': '1976-07-01', 'country': {'id': 39, 'name': 'Cameroon'}}]"
-941,Netherlands,male,A,"[{'id': 788, 'name': 'Louis van Gaal', 'nickname': None, 'dob': '1951-08-08', 'country': {'id': 160, 'name': 'Netherlands'}}]"
-1833,Canada,male,F,"[{'id': 4435, 'name': 'John Herdman', 'nickname': None, 'dob': '1975-07-19', 'country': {'id': 68, 'name': 'England'}}]"
-781,Brazil,male,G,"[{'id': 547, 'name': 'Adenor Leonardo Bacchi', 'nickname': 'Tite', 'dob': '1961-05-25', 'country': {'id': 31, 'name': 'Brazil'}}]"
-1839,United States,male,B,"[{'id': 93, 'name': 'Gregg Berhalter', 'nickname': None, 'dob': '1973-08-01', 'country': {'id': 241, 'name': 'United States of America'}}]"
-785,Croatia,male,F,"[{'id': 307, 'name': 'Zlatko Dalić', 'nickname': None, 'dob': '1966-10-26', 'country': {'id': 56, 'name': 'Croatia'}}]"
-771,France,male,D,"[{'id': 545, 'name': 'Didier Deschamps', 'nickname': None, 'dob': '1968-10-15', 'country': {'id': 78, 'name': 'France'}}]"
-797,Iran,male,B,"[{'id': 645, 'name': 'Carlos Manuel Brito Leal Queiróz', 'nickname': 'Carlos Queiroz', 'dob': '1953-03-01', 'country': {'id': 183, 'name': 'Portugal'}}]"
-789,Poland,male,C,"[{'id': 5294, 'name': 'Czesław Michniewicz', 'nickname': None, 'dob': '1970-02-12', 'country': {'id': 182, 'name': 'Poland'}}]"
-780,Portugal,male,H,"[{'id': 607, 'name': 'Fernando Manuel Fernandes da Costa Santos', 'nickname': 'Fernando Santos', 'dob': '1954-10-10', 'country': {'id': 183, 'name': 'Portugal'}}]"
-768,England,male,B,"[{'id': 277, 'name': 'Gareth Southgate', 'nickname': None, 'dob': '1970-09-03', 'country': {'id': 68, 'name': 'England'}}]"
-772,Spain,male,E,"[{'id': 793, 'name': 'Luis Enrique Martínez García', 'nickname': 'Luis Enrique', 'dob': '1970-05-08', 'country': {'id': 214, 'name': 'Spain'}}]"
-777,Tunisia,male,D,"[{'id': 1001303, 'name': 'Jalel Kadri', 'nickname': None, 'dob': None, 'country': {'id': 232, 'name': 'Tunisia'}}]"
-790,Sweden,male,,"[{'id': 1003269, 'name': 'George Raynor', 'nickname': None, 'dob': '1907-01-13', 'country': {'id': 68, 'name': 'England'}}]"
-771,France,male,,"[{'id': 1003267, 'name': 'Albert Batteux', 'nickname': None, 'dob': '2023-07-02', 'country': {'id': 78, 'name': 'France'}}]"
-794,Mexico,male,,"[{'id': 1003268, 'name': 'Ignacio Trelles', 'nickname': None, 'dob': '2023-07-31', 'country': {'id': 147, 'name': 'Mexico'}}]"
-784,Peru,male,,"[{'id': 1003310, 'name': 'Waldyr Pereira', 'nickname': 'Didi', 'dob': '2023-10-08', 'country': {'id': 31, 'name': 'Brazil'}}]"
-905,Romania,male,,"[{'id': 1003309, 'name': 'Angelo Niculescu', 'nickname': None, 'dob': '1921-10-01', 'country': {'id': 187, 'name': 'Romania'}}]"
-914,Italy,male,,"[{'id': 1003280, 'name': 'Ferruccio Valcareggi', 'nickname': None, 'dob': '2023-02-12', 'country': {'id': 112, 'name': 'Italy'}}]"
-783,Uruguay,male,,"[{'id': 1003279, 'name': 'Juan Eduardo Hohberg', 'nickname': None, 'dob': '1927-10-08', 'country': {'id': 242, 'name': 'Uruguay'}}]"
-768,England,male,,"[{'id': 1003282, 'name': 'Alfred Ernest Ramsey', 'nickname': 'Alf Ramsey', 'dob': '1920-01-22', 'country': {'id': 68, 'name': 'England'}}]"
-17469,Czechoslovakia,male,,"[{'id': 1003276, 'name': 'Jozef Marko', 'nickname': None, 'dob': '1923-05-25', 'country': {'id': 60, 'name': 'Czech Republic'}}]"
-768,England,male,,"[{'id': 277, 'name': 'Gareth Southgate', 'nickname': None, 'dob': '1970-09-03', 'country': {'id': 68, 'name': 'England'}}]"
-782,Belgium,male,G,"[{'id': 263, 'name': 'Roberto Martínez Montoliú', 'nickname': 'Roberto Martínez', 'dob': '1973-07-13', 'country': {'id': 214, 'name': 'Spain'}}]"
-773,Switzerland,male,,"[{'id': 492, 'name': 'Vladimir Petković', 'nickname': None, 'dob': '1963-08-15', 'country': {'id': 28, 'name': 'Bosnia and Herzegovina'}}]"
-780,Portugal,male,B,"[{'id': 607, 'name': 'Fernando Manuel Fernandes da Costa Santos', 'nickname': 'Fernando Santos', 'dob': '1954-10-10', 'country': {'id': 183, 'name': 'Portugal'}}]"
-788,Morocco,male,B,"[{'id': 642, 'name': 'Hervé Renard', 'nickname': None, 'dob': '1968-09-30', 'country': {'id': 78, 'name': 'France'}}]"
-798,Panama,male,G,"[{'id': 654, 'name': 'Hernán Darío Gómez Jaramillo', 'nickname': 'Hernán Darío Gómez', 'dob': '1956-02-03', 'country': {'id': 49, 'name': 'Colombia'}}]"
-773,Switzerland,male,E,"[{'id': 492, 'name': 'Vladimir Petković', 'nickname': None, 'dob': '1963-08-15', 'country': {'id': 28, 'name': 'Bosnia and Herzegovina'}}]"
-795,Costa Rica,male,Group E,"[{'id': 646, 'name': 'Óscar Antonio Ramírez Hernández', 'nickname': 'Óscar Ramírez', 'dob': '1964-12-08', 'country': {'id': 54, 'name': 'Costa Rica'}}]"
-783,Uruguay,male,Group A,"[{'id': 476, 'name': 'Óscar Washington Tabárez Silva', 'nickname': 'Óscar Tabárez', 'dob': '1947-03-03', 'country': {'id': 242, 'name': 'Uruguay'}}]"
-794,Mexico,male,Group F,"[{'id': 632, 'name': 'Juan Carlos Osorio Arbeláez', 'nickname': 'Juan Carlos Osorio', 'dob': '1961-06-08', 'country': {'id': 49, 'name': 'Colombia'}}]"
-799,Saudi Arabia,male,Group A,"[{'id': 638, 'name': 'Juan Antonio Pizzi Torroja', 'nickname': 'Pizzi', 'dob': '1968-06-07', 'country': {'id': 214, 'name': 'Spain'}}]"
-798,Panama,male,Group G,"[{'id': 654, 'name': 'Hernán Darío Gómez Jaramillo', 'nickname': 'Hernán Darío Gómez', 'dob': '1956-02-03', 'country': {'id': 49, 'name': 'Colombia'}}]"
-769,Colombia,male,Group H,"[{'id': 634, 'name': 'José Néstor Pekerman', 'nickname': 'José Pékerman', 'dob': '1949-09-03', 'country': {'id': 11, 'name': 'Argentina'}}]"
-784,Peru,male,Group C,"[{'id': 629, 'name': 'Ricardo Alberto Gareca Nardi', 'nickname': 'Ricardo Gareca', 'dob': '1958-02-10', 'country': {'id': 11, 'name': 'Argentina'}}]"
-787,Senegal,male,Group H,"[{'id': 635, 'name': 'Aliou Cissé', 'nickname': None, 'dob': '1976-03-24', 'country': {'id': 202, 'name': 'Senegal'}}]"
-791,South Korea,male,Group F,"[{'id': 631, 'name': 'Tae-Yong Shin', 'nickname': 'Shin Tae-Yong', 'dob': '1970-10-11', 'country': {'id': 121, 'name': 'Korea\xa0(South)'}}]"
-772,Spain,male,Group B,"[{'id': 643, 'name': 'Fernando Ruiz Hierro', 'nickname': 'Fernando Hierro', 'dob': '1968-03-23', 'country': {'id': 214, 'name': 'Spain'}}]"
-781,Brazil,male,Group E,"[{'id': 547, 'name': 'Adenor Leonardo Bacchi', 'nickname': 'Tite', 'dob': '1961-05-25', 'country': {'id': 31, 'name': 'Brazil'}}]"
-790,Sweden,male,Group F,"[{'id': 549, 'name': 'Jan Olof Andersson', 'nickname': None, 'dob': '1962-09-29', 'country': {'id': 220, 'name': 'Sweden'}}]"
-768,England,male,Group G,"[{'id': 277, 'name': 'Gareth Southgate', 'nickname': None, 'dob': '1970-09-03', 'country': {'id': 68, 'name': 'England'}}]"
-779,Argentina,male,,"[{'id': 637, 'name': 'Jorge Luis Sampaoli Moya', 'nickname': 'Jorge Sampaoli', 'dob': '1960-03-13', 'country': {'id': 11, 'name': 'Argentina'}}]"
-782,Belgium,male,,"[{'id': 263, 'name': 'Roberto Martínez Montoliú', 'nickname': 'Roberto Martínez', 'dob': '1973-07-13', 'country': {'id': 214, 'name': 'Spain'}}]"
-776,Denmark,male,,"[{'id': 641, 'name': 'Åge Fridtjof Hareide', 'nickname': 'Åge Hareide', 'dob': '1953-09-23', 'country': {'id': 171, 'name': 'Norway'}}]"
-793,Iceland,male,D,"[{'id': 648, 'name': 'Heimir Hallgrímsson', 'nickname': None, 'dob': '1967-06-10', 'country': {'id': 104, 'name': 'Iceland'}}]"
-775,Nigeria,male,D,"[{'id': 636, 'name': 'Gernot Rohr', 'nickname': None, 'dob': '1953-06-28', 'country': {'id': 85, 'name': 'Germany'}}]"
-794,Mexico,male,F,"[{'id': 632, 'name': 'Juan Carlos Osorio Arbeláez', 'nickname': 'Juan Carlos Osorio', 'dob': '1961-06-08', 'country': {'id': 49, 'name': 'Colombia'}}]"
-769,Colombia,male,H,"[{'id': 634, 'name': 'José Néstor Pekerman', 'nickname': 'José Pékerman', 'dob': '1949-09-03', 'country': {'id': 11, 'name': 'Argentina'}}]"
-777,Tunisia,male,G,"[{'id': 557, 'name': 'Nabil Maâloul', 'nickname': None, 'dob': '1962-07-25', 'country': {'id': 232, 'name': 'Tunisia'}}]"
-795,Costa Rica,male,E,"[{'id': 646, 'name': 'Óscar Antonio Ramírez Hernández', 'nickname': 'Óscar Ramírez', 'dob': '1964-12-08', 'country': {'id': 54, 'name': 'Costa Rica'}}]"
-792,Australia,male,C,"[{'id': 630, 'name': 'Lambertus van Marwijk', 'nickname': None, 'dob': '1952-05-19', 'country': {'id': 160, 'name': 'Netherlands'}}]"
-796,Russia,male,Group A,"[{'id': 365, 'name': 'Stanislav Cherchesov', 'nickname': None, 'dob': '1963-09-02', 'country': {'id': 188, 'name': 'Russia'}}]"
-794,Mexico,male,,"[{'id': 632, 'name': 'Juan Carlos Osorio Arbeláez', 'nickname': 'Juan Carlos Osorio', 'dob': '1961-06-08', 'country': {'id': 49, 'name': 'Colombia'}}]"
-786,Serbia,male,E,"[{'id': 640, 'name': 'Mladen Krstajić', 'nickname': None, 'dob': '1974-03-04', 'country': {'id': 203, 'name': 'Serbia'}}]"
-778,Japan,male,,"[{'id': 644, 'name': 'Akira Nishino', 'nickname': None, 'dob': '1955-04-07', 'country': {'id': 114, 'name': 'Japan'}}]"
-785,Croatia,male,Group D,"[{'id': 307, 'name': 'Zlatko Dalić', 'nickname': None, 'dob': '1966-10-26', 'country': {'id': 56, 'name': 'Croatia'}}]"
-785,Croatia,male,D,"[{'id': 307, 'name': 'Zlatko Dalić', 'nickname': None, 'dob': '1966-10-26', 'country': {'id': 56, 'name': 'Croatia'}}]"
-796,Russia,male,,"[{'id': 365, 'name': 'Stanislav Cherchesov', 'nickname': None, 'dob': '1963-09-02', 'country': {'id': 188, 'name': 'Russia'}}]"
-776,Denmark,male,Group C,"[{'id': 641, 'name': 'Åge Fridtjof Hareide', 'nickname': 'Åge Hareide', 'dob': '1953-09-23', 'country': {'id': 171, 'name': 'Norway'}}]"
-779,Argentina,male,D,"[{'id': 637, 'name': 'Jorge Luis Sampaoli Moya', 'nickname': 'Jorge Sampaoli', 'dob': '1960-03-13', 'country': {'id': 11, 'name': 'Argentina'}}]"
-789,Poland,male,H,"[{'id': 542, 'name': 'Adam Nawałka', 'nickname': None, 'dob': '1957-10-23', 'country': {'id': 182, 'name': 'Poland'}}]"
-772,Spain,male,B,"[{'id': 643, 'name': 'Fernando Ruiz Hierro', 'nickname': 'Fernando Hierro', 'dob': '1968-03-23', 'country': {'id': 214, 'name': 'Spain'}}]"
-799,Saudi Arabia,male,A,"[{'id': 638, 'name': 'Juan Antonio Pizzi Torroja', 'nickname': 'Pizzi', 'dob': '1968-06-07', 'country': {'id': 214, 'name': 'Spain'}}]"
-770,Germany,male,F,"[{'id': 602, 'name': 'Joachim Löw', 'nickname': None, 'dob': '1960-02-03', 'country': {'id': 85, 'name': 'Germany'}}]"
-778,Japan,male,Group H,"[{'id': 644, 'name': 'Akira Nishino', 'nickname': None, 'dob': '1955-04-07', 'country': {'id': 114, 'name': 'Japan'}}]"
-774,Egypt,male,A,"[{'id': 486, 'name': 'Héctor Raúl Cúper', 'nickname': 'Héctor Cúper', 'dob': '1955-11-16', 'country': {'id': 11, 'name': 'Argentina'}}]"
-771,France,male,C,"[{'id': 545, 'name': 'Didier Deschamps', 'nickname': None, 'dob': '1968-10-15', 'country': {'id': 78, 'name': 'France'}}]"
-787,Senegal,male,H,"[{'id': 635, 'name': 'Aliou Cissé', 'nickname': None, 'dob': '1976-03-24', 'country': {'id': 202, 'name': 'Senegal'}}]"
-770,Germany,male,,"[{'id': 4624, 'name': 'Helmut Schön', 'nickname': None, 'dob': '1915-09-15', 'country': {'id': 85, 'name': 'Germany'}}]"
-781,Brazil,male,,"[{'id': 3609, 'name': 'Mário Jorge Lobo Zagallo', 'nickname': 'Mário Zagallo', 'dob': '1931-08-09', 'country': {'id': 31, 'name': 'Brazil'}}]"
-941,Netherlands,male,,"[{'id': 1003270, 'name': 'Rinus Michels', 'nickname': None, 'dob': '1928-02-09', 'country': {'id': 160, 'name': 'Netherlands'}}]"
-779,Argentina,male,,"[{'id': 1003284, 'name': 'Vladislao Wenceslao Cap', 'nickname': None, 'dob': '2023-07-05', 'country': {'id': 11, 'name': 'Argentina'}}]"
-790,Sweden,male,,
-770,Germany,male,,"[{'id': 4724, 'name': 'Franz Beckenbauer', 'nickname': None, 'dob': '1945-09-11', 'country': {'id': 85, 'name': 'Germany'}}]"
-782,Belgium,male,,"[{'id': 1003262, 'name': 'Guy Thys', 'nickname': None, 'dob': '1922-12-06', 'country': {'id': 22, 'name': 'Belgium'}}]"
-768,England,male,,"[{'id': 3404, 'name': 'Bobby Robson', 'nickname': None, 'dob': '1933-02-18', 'country': {'id': 68, 'name': 'England'}}]"
-779,Argentina,male,,"[{'id': 4166, 'name': 'Carlos Salvador Bilardo', 'nickname': 'Carlos Bilardo', 'dob': '1938-03-16', 'country': {'id': 11, 'name': 'Argentina'}}]"
-761,Chicago Red Stars,female,,"[{'id': 142, 'name': 'Rory Dames', 'nickname': None, 'dob': '1973-02-10', 'country': {'id': 241, 'name': 'United States of America'}}]"
-759,Washington Spirit,female,,"[{'id': 131, 'name': 'James Gabarra', 'nickname': None, 'dob': '1959-09-22', 'country': {'id': 241, 'name': 'United States of America'}}]"
-767,Utah Royals,female,,"[{'id': 134, 'name': 'Laura Harvey', 'nickname': None, 'dob': '1980-05-15', 'country': {'id': 68, 'name': 'England'}}]"
-762,Houston Dash,female,,"[{'id': 132, 'name': 'Vera Pauw', 'nickname': None, 'dob': '1963-01-18', 'country': {'id': 160, 'name': 'Netherlands'}}]"
-766,North Carolina Courage,female,,"[{'id': 127, 'name': 'Paul Riley', 'nickname': None, 'dob': '1963-09-23', 'country': {'id': 68, 'name': 'England'}}]"
-760,OL Reign,female,,"[{'id': 141, 'name': 'Vlatko Andonovski', 'nickname': None, 'dob': '1976-09-14', 'country': {'id': 241, 'name': 'United States of America'}}]"
-763,NJ/NY Gotham FC,female,,"[{'id': 140, 'name': 'Denise Reddy', 'nickname': None, 'dob': '1970-09-14', 'country': {'id': 241, 'name': 'United States of America'}}]"
-764,Orlando Pride,female,,"[{'id': 130, 'name': 'Tom Sermanni', 'nickname': None, 'dob': '1954-07-01', 'country': {'id': 201, 'name': 'Scotland'}}]"
-765,Portland Thorns,female,,"[{'id': 129, 'name': 'Mark Richard David Parsons', 'nickname': None, 'dob': '1986-08-08', 'country': {'id': 68, 'name': 'England'}}]"
-860,Switzerland Women's,female,,"[{'id': 429, 'name': 'Nils Herbert Kromann Nielsen', 'nickname': None, 'dob': '1971-11-03', 'country': {'id': 61, 'name': 'Denmark'}}]"
-858,Sweden Women's,female,,"[{'id': 3016, 'name': 'Peter Gerhardsson', 'nickname': None, 'dob': '1959-08-22', 'country': {'id': 220, 'name': 'Sweden'}}]"
-863,Spain Women's,female,,"[{'id': 418, 'name': 'Jorge Vilda', 'nickname': None, 'dob': '1981-07-07', 'country': {'id': 214, 'name': 'Spain'}}]"
-857,Germany Women's,female,,"[{'id': 53, 'name': 'Martina Voss-Tecklenburg', 'nickname': None, 'dob': '1967-12-22', 'country': {'id': 85, 'name': 'Germany'}}]"
-865,England Women's,female,,"[{'id': 45, 'name': 'Sarina Glotzbach-Wiegman', 'nickname': 'Sarina Wiegman', 'dob': '1969-10-26', 'country': {'id': 160, 'name': 'Netherlands'}}]"
-855,Italy Women's,female,,"[{'id': 4085, 'name': 'Milena Bertolini', 'nickname': None, 'dob': '1966-06-24', 'country': {'id': 112, 'name': 'Italy'}}]"
-2457,Northern Ireland,female,,"[{'id': 4197, 'name': 'Kenny Shiels', 'nickname': None, 'dob': '1956-04-27', 'country': {'id': 169, 'name': 'Northern Ireland'}}]"
-861,France Women's,female,,"[{'id': 500, 'name': 'Corinne Catherine Diacre', 'nickname': None, 'dob': '1974-08-04', 'country': {'id': 78, 'name': 'France'}}]"
-851,Netherlands Women's,female,,"[{'id': 129, 'name': 'Mark Richard David Parsons', 'nickname': None, 'dob': '1986-08-08', 'country': {'id': 68, 'name': 'England'}}]"
-859,Austria Women's,female,,"[{'id': 1001600, 'name': 'Irene Fuhrmann', 'nickname': None, 'dob': '1980-09-23', 'country': {'id': 15, 'name': 'Austria'}}]"
-854,Belgium Women's,female,,"[{'id': 426, 'name': 'Ives Serneels', 'nickname': None, 'dob': '1972-10-16', 'country': {'id': 22, 'name': 'Belgium'}}]"
-920,WNT Finland,female,,"[{'id': 753, 'name': 'Anna Signeul', 'nickname': None, 'dob': '1961-05-20', 'country': {'id': 220, 'name': 'Sweden'}}]"
-853,Denmark Women's,female,,"[{'id': 3574, 'name': 'Lars Søndergaard', 'nickname': None, 'dob': '1959-04-05', 'country': {'id': 61, 'name': 'Denmark'}}]"
-864,Portugal Women's,female,,"[{'id': 419, 'name': 'Francisco Miguel Conceição Roque Neto', 'nickname': 'Francisco Neto', 'dob': '1981-07-11', 'country': {'id': 183, 'name': 'Portugal'}}]"
-852,Norway Women's,female,,"[{'id': 764, 'name': 'Martin Sjögren', 'nickname': None, 'dob': '1977-04-27', 'country': {'id': 220, 'name': 'Sweden'}}]"
-862,Iceland Women's,female,,"[{'id': 3642, 'name': 'Thorsteinn Halldórsson', 'nickname': None, 'dob': '1968-01-07', 'country': {'id': 104, 'name': 'Iceland'}}]"
-776,Denmark,male,B,"[{'id': 255, 'name': 'Kasper Hjulmand', 'nickname': None, 'dob': '1972-04-09', 'country': {'id': 61, 'name': 'Denmark'}}]"
-907,Wales,male,A,"[{'id': 1000471, 'name': 'Robert Page', 'nickname': None, 'dob': '1974-09-03', 'country': {'id': 249, 'name': 'Wales'}}]"
-908,Slovakia,male,E,"[{'id': 5363, 'name': 'Štefan Tarkovič', 'nickname': None, 'dob': '1973-02-18', 'country': {'id': 207, 'name': 'Slovakia'}}]"
-770,Germany,male,Group F,"[{'id': 602, 'name': 'Joachim Löw', 'nickname': None, 'dob': '1960-02-03', 'country': {'id': 85, 'name': 'Germany'}}]"
-771,France,male,F,"[{'id': 545, 'name': 'Didier Deschamps', 'nickname': None, 'dob': '1968-10-15', 'country': {'id': 78, 'name': 'France'}}]"
-773,Switzerland,male,A,"[{'id': 492, 'name': 'Vladimir Petković', 'nickname': None, 'dob': '1963-08-15', 'country': {'id': 28, 'name': 'Bosnia and Herzegovina'}}]"
-789,Poland,male,Group E,"[{'id': 1798, 'name': 'Paulo Manuel Carvalho de Sousa', 'nickname': 'Paulo Sousa', 'dob': '1970-08-30', 'country': {'id': 183, 'name': 'Portugal'}}]"
-912,Czech Republic,male,D,"[{'id': 183, 'name': 'Jaroslav Šilhavý', 'nickname': None, 'dob': '1961-11-03', 'country': {'id': 60, 'name': 'Czech Republic'}}]"
-2358,North Macedonia,male,Group C,"[{'id': 4172, 'name': 'Igor Angelovski', 'nickname': None, 'dob': '1976-06-02', 'country': {'id': 135, 'name': 'Macedonia, Republic of'}}]"
-914,Italy,male,A,"[{'id': 2997, 'name': 'Roberto Mancini', 'nickname': None, 'dob': '1964-11-27', 'country': {'id': 112, 'name': 'Italy'}}]"
-776,Denmark,male,,"[{'id': 255, 'name': 'Kasper Hjulmand', 'nickname': None, 'dob': '1972-04-09', 'country': {'id': 61, 'name': 'Denmark'}}]"
-941,Netherlands,male,C,"[{'id': 686, 'name': 'Frank de Boer', 'nickname': None, 'dob': '1970-05-15', 'country': {'id': 160, 'name': 'Netherlands'}}]"
-770,Germany,male,,"[{'id': 602, 'name': 'Joachim Löw', 'nickname': None, 'dob': '1960-02-03', 'country': {'id': 85, 'name': 'Germany'}}]"
-911,Ukraine,male,,"[{'id': 2303, 'name': 'Andrii Shevchenko', 'nickname': None, 'dob': '1976-09-29', 'country': {'id': 238, 'name': 'Ukraine'}}]"
-915,Austria,male,,"[{'id': 4061, 'name': 'Franco Foda', 'nickname': None, 'dob': '1966-04-23', 'country': {'id': 85, 'name': 'Germany'}}]"
-916,Hungary,male,F,"[{'id': 3616, 'name': 'Marco Rossi', 'nickname': None, 'dob': '1964-09-09', 'country': {'id': 112, 'name': 'Italy'}}]"
-942,Scotland,male,D,"[{'id': 510, 'name': 'Steve Clarke', 'nickname': None, 'dob': '1963-08-29', 'country': {'id': 201, 'name': 'Scotland'}}]"
-768,England,male,D,"[{'id': 277, 'name': 'Gareth Southgate', 'nickname': None, 'dob': '1970-09-03', 'country': {'id': 68, 'name': 'England'}}]"
-782,Belgium,male,B,"[{'id': 263, 'name': 'Roberto Martínez Montoliú', 'nickname': 'Roberto Martínez', 'dob': '1973-07-13', 'country': {'id': 214, 'name': 'Spain'}}]"
-915,Austria,male,Group C,"[{'id': 4061, 'name': 'Franco Foda', 'nickname': None, 'dob': '1966-04-23', 'country': {'id': 85, 'name': 'Germany'}}]"
-796,Russia,male,Group B,"[{'id': 365, 'name': 'Stanislav Cherchesov', 'nickname': None, 'dob': '1963-09-02', 'country': {'id': 188, 'name': 'Russia'}}]"
-909,Turkey,male,A,"[{'id': 701, 'name': 'Şenol Güneş', 'nickname': None, 'dob': '1952-06-01', 'country': {'id': 233, 'name': 'Turkey'}}]"
-942,Scotland,male,Group D,"[{'id': 510, 'name': 'Steve Clarke', 'nickname': None, 'dob': '1963-08-29', 'country': {'id': 201, 'name': 'Scotland'}}]"
-2358,North Macedonia,male,C,"[{'id': 4172, 'name': 'Igor Angelovski', 'nickname': None, 'dob': '1976-06-02', 'country': {'id': 135, 'name': 'Macedonia, Republic of'}}]"
-782,Belgium,male,Group B,"[{'id': 263, 'name': 'Roberto Martínez Montoliú', 'nickname': 'Roberto Martínez', 'dob': '1973-07-13', 'country': {'id': 214, 'name': 'Spain'}}]"
-914,Italy,male,,"[{'id': 2997, 'name': 'Roberto Mancini', 'nickname': None, 'dob': '1964-11-27', 'country': {'id': 112, 'name': 'Italy'}}]"
-776,Denmark,male,,
-911,Ukraine,male,C,"[{'id': 2303, 'name': 'Andrii Shevchenko', 'nickname': None, 'dob': '1976-09-29', 'country': {'id': 238, 'name': 'Ukraine'}}]"
-912,Czech Republic,male,,"[{'id': 183, 'name': 'Jaroslav Šilhavý', 'nickname': None, 'dob': '1961-11-03', 'country': {'id': 60, 'name': 'Czech Republic'}}]"
-915,Austria,male,C,"[{'id': 4061, 'name': 'Franco Foda', 'nickname': None, 'dob': '1966-04-23', 'country': {'id': 85, 'name': 'Germany'}}]"
-790,Sweden,male,E,"[{'id': 549, 'name': 'Jan Olof Andersson', 'nickname': None, 'dob': '1962-09-29', 'country': {'id': 220, 'name': 'Sweden'}}]"
-912,Czech Republic,male,Group D,"[{'id': 183, 'name': 'Jaroslav Šilhavý', 'nickname': None, 'dob': '1961-11-03', 'country': {'id': 60, 'name': 'Czech Republic'}}]"
-780,Portugal,male,F,"[{'id': 607, 'name': 'Fernando Manuel Fernandes da Costa Santos', 'nickname': 'Fernando Santos', 'dob': '1954-10-10', 'country': {'id': 183, 'name': 'Portugal'}}]"
-1835,Finland,male,Group B,"[{'id': 3622, 'name': 'Markku Kanerva', 'nickname': None, 'dob': '1964-05-24', 'country': {'id': 77, 'name': 'Finland'}}]"
-796,Russia,male,B,"[{'id': 365, 'name': 'Stanislav Cherchesov', 'nickname': None, 'dob': '1963-09-02', 'country': {'id': 188, 'name': 'Russia'}}]"
-147,Marseille,male,,"[{'id': 505, 'name': 'José Miguel González Martín del Campo', 'nickname': 'Míchel', 'dob': '1963-03-23', 'country': {'id': 214, 'name': 'Spain'}}]"
-160,Gazélec Ajaccio,male,,"[{'id': 121, 'name': 'Thierry Laurey', 'nickname': None, 'dob': '1964-02-17', 'country': {'id': 78, 'name': 'France'}}]"
-144,Nantes,male,,"[{'id': 438, 'name': 'Michel Der Zakarian', 'nickname': None, 'dob': '1963-02-18', 'country': {'id': 12, 'name': 'Armenia'}}]"
-147,Marseille,male,,"[{'id': 3004, 'name': 'Franck Passi', 'nickname': None, 'dob': '1966-03-28', 'country': {'id': 78, 'name': 'France'}}]"
-2736,Bastia,male,,"[{'id': 3632, 'name': 'François Ciccolini', 'nickname': None, 'dob': '1962-06-03', 'country': {'id': 78, 'name': 'France'}}]"
-146,Bordeaux,male,,"[{'id': 752, 'name': 'Willy Sagnol', 'nickname': None, 'dob': '1977-03-18', 'country': {'id': 78, 'name': 'France'}}]"
-137,Lyon,male,,"[{'id': 283, 'name': 'Bruno Génésio', 'nickname': None, 'dob': '1966-09-01', 'country': {'id': 78, 'name': 'France'}}]"
-129,AS Monaco,male,,"[{'id': 427, 'name': 'José Leonardo Nunes Alves Sousa Jardim', 'nickname': 'Leonardo Jardim', 'dob': '1974-08-01', 'country': {'id': 183, 'name': 'Portugal'}}]"
-2736,Bastia,male,,"[{'id': 4493, 'name': 'Ghislain Printant', 'nickname': None, 'dob': '1961-05-03', 'country': {'id': 78, 'name': 'France'}}]"
-145,Angers,male,,"[{'id': 301, 'name': 'Stéphane Moulin', 'nickname': None, 'dob': '1967-08-04', 'country': {'id': 78, 'name': 'France'}}]"
-139,Montpellier,male,,"[{'id': 119, 'name': 'Frédéric Hantz', 'nickname': None, 'dob': '1966-05-30', 'country': {'id': 78, 'name': 'France'}}]"
-134,Rennes,male,,"[{'id': 1001260, 'name': 'Rolland Courbis', 'nickname': None, 'dob': '1953-08-12', 'country': {'id': 78, 'name': 'France'}}]"
-130,Toulouse,male,,"[{'id': 433, 'name': 'Pascal Dupraz', 'nickname': None, 'dob': '1962-09-19', 'country': {'id': 78, 'name': 'France'}}]"
-156,Stade de Reims,male,,"[{'id': 2936, 'name': 'Olivier Guégan', 'nickname': None, 'dob': '1972-08-20', 'country': {'id': 78, 'name': 'France'}}]"
-146,Bordeaux,male,,"[{'id': 1003453, 'name': 'Ulrich Ramé', 'nickname': None, 'dob': '1972-09-19', 'country': {'id': 78, 'name': 'France'}}]"
-136,OGC Nice,male,,"[{'id': 381, 'name': 'Claude Puel', 'nickname': None, 'dob': '1961-09-02', 'country': {'id': 78, 'name': 'France'}}]"
-143,Lille,male,,"[{'id': 24, 'name': 'Frédéric Antonetti', 'nickname': None, 'dob': '1961-08-19', 'country': {'id': 78, 'name': 'France'}}]"
-131,Paris Saint-Germain,male,,"[{'id': 3802, 'name': 'Laurent Blanc', 'nickname': None, 'dob': '1965-11-19', 'country': {'id': 78, 'name': 'France'}}]"
-156,Stade de Reims,male,,"[{'id': 201, 'name': 'David Guion', 'nickname': None, 'dob': '1967-09-30', 'country': {'id': 78, 'name': 'France'}}]"
-135,Saint-Étienne,male,,"[{'id': 281, 'name': 'Christophe Galtier', 'nickname': None, 'dob': '1966-08-23', 'country': {'id': 78, 'name': 'France'}}]"
-142,Guingamp,male,,"[{'id': 434, 'name': 'Jocelyn Gourvennec', 'nickname': None, 'dob': '1972-03-22', 'country': {'id': 78, 'name': 'France'}}]"
-140,Caen,male,,"[{'id': 439, 'name': 'Patrice Garande', 'nickname': None, 'dob': '1960-11-27', 'country': {'id': 78, 'name': 'France'}}]"
-165,Lorient,male,,"[{'id': 2983, 'name': 'Sylvain Ripoll', 'nickname': None, 'dob': '1971-08-15', 'country': {'id': 78, 'name': 'France'}}]"
-133,Troyes,male,,"[{'id': 1003442, 'name': 'Mohamed Bradja', 'nickname': None, 'dob': '1969-11-16', 'country': {'id': 4, 'name': 'Algeria'}}]"
-2736,Bastia,male,,
-140,Caen,male,,
-165,Lorient,male,,
-144,Nantes,male,,
-137,Lyon,male,,
-156,Stade de Reims,male,,
-147,Marseille,male,,
-139,Montpellier,male,,
-142,Guingamp,male,,
-135,Saint-Étienne,male,,
-145,Angers,male,,
-143,Lille,male,,
-136,OGC Nice,male,,
-129,AS Monaco,male,,
-146,Bordeaux,male,,
-133,Troyes,male,,
-160,Gazélec Ajaccio,male,,
-131,Paris Saint-Germain,male,,
-134,Rennes,male,,"[{'id': 224, 'name': 'Philippe Jacques William Montanier', 'nickname': None, 'dob': '1964-11-15', 'country': {'id': 78, 'name': 'France'}}]"
-130,Toulouse,male,,"[{'id': 1001261, 'name': 'Dominique Arribagé', 'nickname': None, 'dob': '1971-05-11', 'country': {'id': 78, 'name': 'France'}}]"
-133,Troyes,male,,"[{'id': 4946, 'name': 'Claude Robin', 'nickname': None, 'dob': '1960-12-10', 'country': {'id': 78, 'name': 'France'}}]"
-139,Montpellier,male,,"[{'id': 4768, 'name': 'Pascal Baills', 'nickname': None, 'dob': '1964-12-30', 'country': {'id': 78, 'name': 'France'}}]"
-137,Lyon,male,,"[{'id': 3796, 'name': 'Hubert Fournier', 'nickname': None, 'dob': '1967-09-03', 'country': {'id': 78, 'name': 'France'}}]"
-139,Montpellier,male,,"[{'id': 1001260, 'name': 'Rolland Courbis', 'nickname': None, 'dob': '1953-08-12', 'country': {'id': 78, 'name': 'France'}}]"
-133,Troyes,male,,"[{'id': 213, 'name': 'Jean-Marc Furlan', 'nickname': None, 'dob': '1957-11-20', 'country': {'id': 78, 'name': 'France'}}]"
-143,Lille,male,,"[{'id': 642, 'name': 'Hervé Renard', 'nickname': None, 'dob': '1968-09-30', 'country': {'id': 78, 'name': 'France'}}]"
-143,Lille,male,,"[{'id': 4105, 'name': 'Patrick Collot', 'nickname': None, 'dob': '1967-06-22', 'country': {'id': 78, 'name': 'France'}}]"
-1205,Australia Women's,female,,"[{'id': 408, 'name': 'Tony Gustavsson', 'nickname': None, 'dob': '1973-08-14', 'country': {'id': 220, 'name': 'Sweden'}}]"
-6045,Zambia Women's,female,,"[{'id': 1000425, 'name': 'Bruce Mwape', 'nickname': None, 'dob': None, 'country': {'id': 253, 'name': 'Zambia'}}]"
-16803,Panama Women's,female,,"[{'id': 1003446, 'name': 'Ignacio Quintana Toledo', 'nickname': None, 'dob': '1988-04-20', 'country': {'id': 147, 'name': 'Mexico'}}]"
-1206,Canada Women's,female,,"[{'id': 1000081, 'name': 'Beverly Priestman', 'nickname': None, 'dob': '1986-04-29', 'country': {'id': 68, 'name': 'England'}}]"
-1212,Jamaica Women's,female,,"[{'id': 1003439, 'name': 'Lorne Julian Donaldson', 'nickname': None, 'dob': '1986-10-09', 'country': {'id': 241, 'name': 'United States of America'}}]"
-861,France Women's,female,,"[{'id': 642, 'name': 'Hervé Renard', 'nickname': None, 'dob': '1968-09-30', 'country': {'id': 78, 'name': 'France'}}]"
-16802,Colombia Women's,female,,"[{'id': 1003448, 'name': 'Nelson Abadía Aragón', 'nickname': None, 'dob': '1956-06-05', 'country': {'id': 49, 'name': 'Colombia'}}]"
-1214,United States Women's,female,,"[{'id': 141, 'name': 'Vlatko Andonovski', 'nickname': None, 'dob': '1976-09-14', 'country': {'id': 241, 'name': 'United States of America'}}]"
-1216,South Africa Women's,female,,"[{'id': 3925, 'name': 'Desiree Ellis', 'nickname': None, 'dob': '1963-03-14', 'country': {'id': 211, 'name': 'South Africa'}}]"
-851,Netherlands Women's,female,,"[{'id': 46, 'name': 'Andries Jonker', 'nickname': None, 'dob': '1962-09-22', 'country': {'id': 160, 'name': 'Netherlands'}}]"
-2391,Morocco Women's,female,,"[{'id': 760, 'name': 'Reynald Pedros', 'nickname': None, 'dob': '1971-10-10', 'country': {'id': 78, 'name': 'France'}}]"
-1213,Nigeria Women's,female,,"[{'id': 1003417, 'name': 'Randy Marlon Waldrum', 'nickname': None, 'dob': '1956-09-25', 'country': {'id': 241, 'name': 'United States of America'}}]"
-852,Norway Women's,female,,"[{'id': 1769, 'name': 'Hege Riise', 'nickname': None, 'dob': '1969-07-18', 'country': {'id': 171, 'name': 'Norway'}}]"
-2355,Haiti Women's,female,,"[{'id': 1003427, 'name': 'Nicolas Michel Gregory Delépine', 'nickname': None, 'dob': '1979-05-04', 'country': {'id': 78, 'name': 'France'}}]"
-16769,Vietnam Women's,female,,"[{'id': 1003426, 'name': 'Đức Chung Mai', 'nickname': 'Mai Đức Chung', 'dob': '1951-06-21', 'country': {'id': 247, 'name': 'Vietnam'}}]"
-16768,Republic of Ireland Women's,female,,"[{'id': 132, 'name': 'Vera Pauw', 'nickname': None, 'dob': '1963-01-18', 'country': {'id': 160, 'name': 'Netherlands'}}]"
-860,Switzerland Women's,female,,"[{'id': 1002252, 'name': 'Inka Grings', 'nickname': None, 'dob': '1978-10-31', 'country': {'id': 85, 'name': 'Germany'}}]"
-1832,Costa Rica Women's,female,,"[{'id': 4855, 'name': 'Amelia Valverde', 'nickname': None, 'dob': '1987-01-14', 'country': {'id': 54, 'name': 'Costa Rica'}}]"
-1203,Brazil Women's,female,,"[{'id': 177, 'name': 'Pia Mariane Sundhage', 'nickname': 'Pia Sundhage', 'dob': '1960-02-13', 'country': {'id': 220, 'name': 'Sweden'}}]"
-1106,Philippines Women's,female,,"[{'id': 2957, 'name': 'Alen Stajčić', 'nickname': None, 'dob': '1973-11-02', 'country': {'id': 14, 'name': 'Australia'}}]"
-16802,Colombia Women's,female,,"[{'id': 1003449, 'name': 'Angelo Marsiglia', 'nickname': None, 'dob': None, 'country': {'id': 49, 'name': 'Colombia'}}]"
-1215,New Zealand Women's,female,,"[{'id': 1003415, 'name': 'Jitka Klimková', 'nickname': None, 'dob': '1974-08-20', 'country': {'id': 60, 'name': 'Czech Republic'}}]"
-1211,Korea Republic Women's,female,,"[{'id': 585, 'name': 'Colin Bell', 'nickname': None, 'dob': '1961-08-05', 'country': {'id': 68, 'name': 'England'}}]"
-1204,Argentina Women's,female,,"[{'id': 1003445, 'name': 'Germán Darío Portanova', 'nickname': None, 'dob': '1973-10-19', 'country': {'id': 11, 'name': 'Argentina'}}]"
-1207,China PR Women's,female,,"[{'id': 1003429, 'name': 'Qingxia Shui', 'nickname': 'Shui Qingxia', 'dob': '1966-12-18', 'country': {'id': 46, 'name': 'China'}}]"
-1210,Japan Women's,female,,"[{'id': 1003258, 'name': 'Futoshi Ikeda', 'nickname': None, 'dob': '1970-10-04', 'country': {'id': 114, 'name': 'Japan'}}]"
-863,Spain Women's,female,B,"[{'id': 418, 'name': 'Jorge Vilda', 'nickname': None, 'dob': '1981-07-07', 'country': {'id': 214, 'name': 'Spain'}}]"
-1107,Thailand Women's,female,F,"[{'id': 4390, 'name': 'Nuengrutai Srathongvian', 'nickname': None, 'dob': '1972-01-01', 'country': {'id': 226, 'name': 'Thailand'}}]"
-858,Sweden Women's,female,F,"[{'id': 3016, 'name': 'Peter Gerhardsson', 'nickname': None, 'dob': '1959-08-22', 'country': {'id': 220, 'name': 'Sweden'}}]"
-866,Scotland Women's,female,D,"[{'id': 3445, 'name': 'Michelle ""Shelley"" Kerr', 'nickname': 'Shelley Kerr', 'dob': '1969-10-15', 'country': {'id': 201, 'name': 'Scotland'}}]"
-1208,Cameroon Women's,female,E,"[{'id': 4350, 'name': 'Alain Djeumfa', 'nickname': None, 'dob': '1972-07-30', 'country': {'id': 39, 'name': 'Cameroon'}}]"
-1205,Australia Women's,female,C,"[{'id': 3541, 'name': 'Ante Milicic', 'nickname': None, 'dob': '1974-04-04', 'country': {'id': 14, 'name': 'Australia'}}]"
-855,Italy Women's,female,C,"[{'id': 4085, 'name': 'Milena Bertolini', 'nickname': None, 'dob': '1966-06-24', 'country': {'id': 112, 'name': 'Italy'}}]"
-855,Italy Women's,female,Group C,"[{'id': 4085, 'name': 'Milena Bertolini', 'nickname': None, 'dob': '1966-06-24', 'country': {'id': 112, 'name': 'Italy'}}]"
-1210,Japan Women's,female,D,"[{'id': 4043, 'name': 'Asako Takemoto Takakura', 'nickname': 'Asako Takakura', 'dob': '1968-04-19', 'country': {'id': 114, 'name': 'Japan'}}]"
-1211,Korea Republic Women's,female,A,"[{'id': 4300, 'name': 'Deuk-Yeo Yoon', 'nickname': 'Yoon Deuk-Yeo', 'dob': '1961-03-25', 'country': {'id': 121, 'name': 'Korea\xa0(South)'}}]"
-1207,China PR Women's,female,B,"[{'id': 3955, 'name': 'Xiuquan Jia', 'nickname': 'Jia Xiuquan', 'dob': '1963-11-09', 'country': {'id': 46, 'name': 'China'}}]"
-1215,New Zealand Women's,female,E,"[{'id': 130, 'name': 'Tom Sermanni', 'nickname': None, 'dob': '1954-07-01', 'country': {'id': 201, 'name': 'Scotland'}}]"
-1206,Canada Women's,female,E,"[{'id': 172, 'name': 'Kenneth Heiner-Møller', 'nickname': None, 'dob': '1971-01-17', 'country': {'id': 61, 'name': 'Denmark'}}]"
-1214,United States Women's,female,F,"[{'id': 2975, 'name': 'Jillian Ellis', 'nickname': None, 'dob': '1966-09-06', 'country': {'id': 241, 'name': 'United States of America'}}]"
-1213,Nigeria Women's,female,A,"[{'id': 4553, 'name': 'Thomas Dennerby', 'nickname': None, 'dob': '1959-08-13', 'country': {'id': 220, 'name': 'Sweden'}}]"
-1203,Brazil Women's,female,C,"[{'id': 3540, 'name': 'Oswaldo Fumeiro Alvarez', 'nickname': None, 'dob': '1956-08-21', 'country': {'id': 31, 'name': 'Brazil'}}]"
-865,England Women's,female,D,"[{'id': 3464, 'name': 'Phil Neville', 'nickname': None, 'dob': '1977-01-21', 'country': {'id': 68, 'name': 'England'}}]"
-852,Norway Women's,female,A,"[{'id': 764, 'name': 'Martin Sjögren', 'nickname': None, 'dob': '1977-04-27', 'country': {'id': 220, 'name': 'Sweden'}}]"
-1209,Chile Women's,female,F,"[{'id': 4389, 'name': 'José Antonio Letelier Henríquez', 'nickname': 'José Letelier', 'dob': '1966-05-23', 'country': {'id': 45, 'name': 'Chile'}}]"
-851,Netherlands Women's,female,,"[{'id': 45, 'name': 'Sarina Glotzbach-Wiegman', 'nickname': 'Sarina Wiegman', 'dob': '1969-10-26', 'country': {'id': 160, 'name': 'Netherlands'}}]"
-1216,South Africa Women's,female,B,"[{'id': 3925, 'name': 'Desiree Ellis', 'nickname': None, 'dob': '1963-03-14', 'country': {'id': 211, 'name': 'South Africa'}}]"
-1212,Jamaica Women's,female,C,"[{'id': 4243, 'name': 'Hue Menzies', 'nickname': None, 'dob': '1964-03-10', 'country': {'id': 113, 'name': 'Jamaica'}}]"
-851,Netherlands Women's,female,E,"[{'id': 45, 'name': 'Sarina Glotzbach-Wiegman', 'nickname': 'Sarina Wiegman', 'dob': '1969-10-26', 'country': {'id': 160, 'name': 'Netherlands'}}]"
-1204,Argentina Women's,female,D,"[{'id': 3447, 'name': 'José Carlos Borrello', 'nickname': None, 'dob': '1955-09-12', 'country': {'id': 11, 'name': 'Argentina'}}]"
-861,France Women's,female,A,"[{'id': 500, 'name': 'Corinne Catherine Diacre', 'nickname': None, 'dob': '1974-08-04', 'country': {'id': 78, 'name': 'France'}}]"
-857,Germany Women's,female,B,"[{'id': 53, 'name': 'Martina Voss-Tecklenburg', 'nickname': None, 'dob': '1967-12-22', 'country': {'id': 85, 'name': 'Germany'}}]"
-1214,United States Women's,female,,"[{'id': 2975, 'name': 'Jillian Ellis', 'nickname': None, 'dob': '1966-09-06', 'country': {'id': 241, 'name': 'United States of America'}}]"
-1324,River Plate,male,,"[{'id': 1003264, 'name': 'Ángel Amadeo Labruna', 'nickname': None, 'dob': '2023-09-28', 'country': {'id': 11, 'name': 'Argentina'}}]"
-1328,Boca Juniors,male,,"[{'id': 1003273, 'name': 'Héctor Rodolfo Veira', 'nickname': None, 'dob': '1946-05-29', 'country': {'id': 11, 'name': 'Argentina'}}]"
-220,Real Madrid,male,,"[{'id': 1003075, 'name': 'Alfredo Stéfano Di Stéfano Laulhé', 'nickname': 'Alfredo Di Stéfano', 'dob': '1926-07-04', 'country': {'id': 11, 'name': 'Argentina'}}]"
-208,Las Palmas,male,,"[{'id': 1001762, 'name': 'Miguel Muñoz', 'nickname': None, 'dob': '1922-01-19', 'country': {'id': 214, 'name': 'Spain'}}]"
-181,Schalke 04,male,,"[{'id': 58, 'name': 'André Breitenreiter', 'nickname': None, 'dob': '1973-10-02', 'country': {'id': 85, 'name': 'Germany'}}]"
-184,Eintracht Frankfurt,male,,"[{'id': 374, 'name': 'Niko Kovač', 'nickname': None, 'dob': '1971-10-15', 'country': {'id': 56, 'name': 'Croatia'}}]"
-178,Hannover 96,male,,"[{'id': 319, 'name': 'Daniel Stendel', 'nickname': None, 'dob': '1974-04-04', 'country': {'id': 85, 'name': 'Germany'}}]"
-872,Darmstadt 98,male,,"[{'id': 377, 'name': 'Dirk Schuster', 'nickname': None, 'dob': '1967-12-29', 'country': {'id': 85, 'name': 'Germany'}}]"
-177,FSV Mainz 05,male,,"[{'id': 186, 'name': 'Martin Schmidt', 'nickname': None, 'dob': '1967-04-12', 'country': {'id': 221, 'name': 'Switzerland'}}]"
-178,Hannover 96,male,,"[{'id': 1003174, 'name': 'Michael Frontzeck', 'nickname': None, 'dob': '1964-03-26', 'country': {'id': 85, 'name': 'Germany'}}]"
-184,Eintracht Frankfurt,male,,"[{'id': 1003175, 'name': 'Armin Veh', 'nickname': None, 'dob': '1961-02-01', 'country': {'id': 85, 'name': 'Germany'}}]"
-171,Hamburger SV,male,,"[{'id': 446, 'name': 'Bruno Labbadia', 'nickname': None, 'dob': '1966-02-08', 'country': {'id': 85, 'name': 'Germany'}}]"
-174,VfB Stuttgart,male,,"[{'id': 1003277, 'name': 'Jürgen Kramny', 'nickname': None, 'dob': '1971-10-18', 'country': {'id': 85, 'name': 'Germany'}}]"
-172,Augsburg,male,,"[{'id': 672, 'name': 'Markus Weinzierl', 'nickname': None, 'dob': '1974-12-28', 'country': {'id': 85, 'name': 'Germany'}}]"
-174,VfB Stuttgart,male,,"[{'id': 287, 'name': 'Alexander Zorniger', 'nickname': None, 'dob': '1967-10-08', 'country': {'id': 85, 'name': 'Germany'}}]"
-176,Werder Bremen,male,,"[{'id': 3055, 'name': 'Viktor Skripnik', 'nickname': None, 'dob': '1969-11-19', 'country': {'id': 238, 'name': 'Ukraine'}}]"
-189,Ingolstadt,male,,"[{'id': 44, 'name': 'Ralph Hasenhüttl', 'nickname': None, 'dob': '1967-08-09', 'country': {'id': 15, 'name': 'Austria'}}]"
-186,FC Köln,male,,"[{'id': 43, 'name': 'Peter Stöger', 'nickname': None, 'dob': '1966-04-11', 'country': {'id': 15, 'name': 'Austria'}}]"
-185,Borussia Mönchengladbach,male,,"[{'id': 3650, 'name': 'André Schubert', 'nickname': None, 'dob': '1971-07-24', 'country': {'id': 85, 'name': 'Germany'}}]"
-173,Hertha Berlin,male,,"[{'id': 51, 'name': 'Pál Dárdai', 'nickname': None, 'dob': '1976-03-16', 'country': {'id': 103, 'name': 'Hungary'}}]"
-180,Borussia Dortmund,male,,"[{'id': 279, 'name': 'Thomas Tuchel', 'nickname': None, 'dob': '1973-08-29', 'country': {'id': 85, 'name': 'Germany'}}]"
-179,Wolfsburg,male,,"[{'id': 411, 'name': 'Dieter Hecking', 'nickname': None, 'dob': '1964-09-12', 'country': {'id': 85, 'name': 'Germany'}}]"
-904,Bayer Leverkusen,male,,"[{'id': 3980, 'name': 'Roger Schmidt', 'nickname': None, 'dob': '1967-03-13', 'country': {'id': 85, 'name': 'Germany'}}]"
-169,Bayern Munich,male,,"[{'id': 36, 'name': 'Josep Guardiola i Sala', 'nickname': 'Pep Guardiola', 'dob': '1971-01-18', 'country': {'id': 214, 'name': 'Spain'}}]"
-175,Hoffenheim,male,,"[{'id': 445, 'name': 'Julian Nagelsmann', 'nickname': None, 'dob': '1987-07-23', 'country': {'id': 85, 'name': 'Germany'}}]"
-178,Hannover 96,male,,"[{'id': 6065, 'name': 'Thomas Schaaf', 'nickname': None, 'dob': '1961-04-30', 'country': {'id': 85, 'name': 'Germany'}}]"
-904,Bayer Leverkusen,male,,"[{'id': 1002246, 'name': 'Markus Krösche', 'nickname': None, 'dob': '1980-09-17', 'country': {'id': 85, 'name': 'Germany'}}]"
-175,Hoffenheim,male,,"[{'id': 1797, 'name': 'Huub Stevens', 'nickname': None, 'dob': '1953-11-29', 'country': {'id': 160, 'name': 'Netherlands'}}]"
-175,Hoffenheim,male,,"[{'id': 59, 'name': 'Markus Gisdol', 'nickname': None, 'dob': '1969-08-17', 'country': {'id': 85, 'name': 'Germany'}}]"
-185,Borussia Mönchengladbach,male,,"[{'id': 428, 'name': 'Lucien Favre', 'nickname': None, 'dob': '1957-11-02', 'country': {'id': 221, 'name': 'Switzerland'}}]"
+away_team_id,away_team_name,away_team_gender,away_team_group
+207,Valencia,male,
+217,Barcelona,male,
+220,Real Madrid,male,
+215,Athletic Club,male,
+208,Las Palmas,male,
+322,Eibar,male,
+218,Real Betis,male,
+222,Villarreal,male,
+221,Levante UD,male,
+214,Espanyol,male,
+205,Leganés,male,
+209,Celta Vigo,male,
+216,Getafe,male,
+213,Sevilla,male,
+223,Málaga,male,
+212,Atlético Madrid,male,
+211,Girona,male,
+206,Deportivo Alavés,male,
+210,Real Sociedad,male,
+219,RC Deportivo La Coruña,male,
+422,Osasuna,male,
+1041,Sporting Gijón,male,
+1049,Granada,male,
+627,Tenerife,male,
+395,Real Zaragoza,male,
+1043,Mallorca,male,
+901,Real Valladolid,male,
+403,Almería,male,
+1219,Xerez,male,
+1217,Racing Santander,male,
+1218,Hércules,male,
+360,Rayo Vallecano,male,
+373,Córdoba CF,male,
+1042,Elche,male,
+608,Albacete,male,
+902,Huesca,male,
+1220,Recreativo Huelva,male,
+444,CD Numancia de Soria,male,
+552,Cádiz,male,
+488,Seattle Sounders,male,
+230,Udinese,male,
+241,Torino,male,
+227,Napoli,male,
+290,Empoli,male,
+239,Fiorentina,male,
+228,Atalanta,male,
+240,Bologna,male,
+234,Sampdoria,male,
+243,AC Milan,male,
+231,Chievo,male,
+232,Sassuolo,male,
+238,Inter Milan,male,
+233,Genoa,male,
+229,AS Roma,male,
+236,Lazio,male,
+224,Juventus,male,
+1683,Carpi,male,
+2256,Palermo,male,
+291,Frosinone,male,
+226,Hellas Verona,male,
+7283,Kerala Blasters,male,
+2021,Jamshedpur,male,
+7289,Hyderabad,male,
+7282,ATK Mohun Bagan,male,
+7284,Bengaluru,male,
+7291,Odisha,male,
+7287,Mumbai City,male,
+7288,Goa,male,
+7290,Chennaiyin,male,
+7286,East Bengal,male,
+7285,NorthEast United,male,
+17403,Soviet Union U20,male,
+24,Liverpool,male,
+39,Manchester United,male,
+33,Chelsea,male,
+169,Bayern Munich,male,
+952,Panathinaikos,male,
+256,FC Porto,male,
+28,AFC Bournemouth,male,
+41,Sunderland,male,
+59,Aston Villa,male,
+23,Watford,male,
+36,Manchester City,male,
+29,Everton,male,
+56,Norwich City,male,
+31,Crystal Palace,male,
+38,Tottenham Hotspur,male,
+22,Leicester City,male,
+40,West Ham United,male,
+27,West Bromwich Albion,male,
+26,Swansea City,male,
+1,Arsenal,male,
+25,Southampton,male,
+30,Stoke City,male,
+37,Newcastle United,male,
+46,Wolverhampton Wanderers,male,
+75,Charlton Athletic,male,
+54,Birmingham City,male,
+105,Portsmouth,male,
+55,Fulham,male,
+98,Blackburn Rovers,male,
+101,Leeds United,male,
+47,Middlesbrough,male,
+328,Bolton Wanderers,male,
+174,VfB Stuttgart,male,
+1076,Juventus,male,
+968,Arsenal WFC,female,
+971,Chelsea FCW,female,
+974,Reading WFC,female,
+972,West Ham United LFC,female,
+969,Birmingham City WFC,female,
+970,Yeovil Town LFC,female,
+965,Brighton & Hove Albion WFC,female,
+973,Bristol City WFC,female,
+966,Liverpool WFC,female,
+967,Everton LFC,female,
+746,Manchester City WFC,female,
+1475,Manchester United,female,
+749,Tottenham Hotspur Women,female,
+2647,Aston Villa,female,
+773,Switzerland,male,G
+792,Australia,male,
+776,Denmark,male,D
+786,Serbia,male,G
+792,Australia,male,D
+787,Senegal,male,A
+779,Argentina,male,
+791,South Korea,male,H
+780,Portugal,male,
+771,France,male,
+794,Mexico,male,C
+779,Argentina,male,C
+3566,Qatar,male,A
+773,Switzerland,male,
+787,Senegal,male,
+788,Morocco,male,
+785,Croatia,male,
+781,Brazil,male,
+772,Spain,male,
+791,South Korea,male,
+789,Poland,male,
+1839,United States,male,
+783,Uruguay,male,H
+770,Germany,male,E
+795,Costa Rica,male,E
+788,Morocco,male,F
+778,Japan,male,E
+907,Wales,male,B
+3565,Ecuador,male,A
+799,Saudi Arabia,male,C
+4885,Ghana,male,H
+782,Belgium,male,F
+2722,Cameroon,male,G
+941,Netherlands,male,A
+1833,Canada,male,F
+781,Brazil,male,G
+1839,United States,male,B
+785,Croatia,male,F
+771,France,male,D
+797,Iran,male,B
+789,Poland,male,C
+780,Portugal,male,H
+768,England,male,B
+772,Spain,male,E
+777,Tunisia,male,D
+790,Sweden,male,
+794,Mexico,male,
+784,Peru,male,
+905,Romania,male,
+914,Italy,male,
+783,Uruguay,male,
+768,England,male,
+17469,Czechoslovakia,male,
+782,Belgium,male,G
+780,Portugal,male,B
+788,Morocco,male,B
+798,Panama,male,G
+773,Switzerland,male,E
+795,Costa Rica,male,Group E
+783,Uruguay,male,Group A
+794,Mexico,male,Group F
+799,Saudi Arabia,male,Group A
+798,Panama,male,Group G
+769,Colombia,male,Group H
+784,Peru,male,Group C
+787,Senegal,male,Group H
+791,South Korea,male,Group F
+772,Spain,male,Group B
+781,Brazil,male,Group E
+790,Sweden,male,Group F
+768,England,male,Group G
+782,Belgium,male,
+776,Denmark,male,
+793,Iceland,male,D
+775,Nigeria,male,D
+794,Mexico,male,F
+769,Colombia,male,H
+777,Tunisia,male,G
+792,Australia,male,C
+796,Russia,male,Group A
+786,Serbia,male,E
+778,Japan,male,
+785,Croatia,male,Group D
+785,Croatia,male,D
+796,Russia,male,
+776,Denmark,male,Group C
+779,Argentina,male,D
+789,Poland,male,H
+772,Spain,male,B
+799,Saudi Arabia,male,A
+770,Germany,male,F
+778,Japan,male,Group H
+774,Egypt,male,A
+771,France,male,C
+787,Senegal,male,H
+770,Germany,male,
+941,Netherlands,male,
+761,Chicago Red Stars,female,
+759,Washington Spirit,female,
+767,Utah Royals,female,
+762,Houston Dash,female,
+766,North Carolina Courage,female,
+760,OL Reign,female,
+763,NJ/NY Gotham FC,female,
+764,Orlando Pride,female,
+765,Portland Thorns,female,
+860,Switzerland Women's,female,
+858,Sweden Women's,female,
+863,Spain Women's,female,
+857,Germany Women's,female,
+865,England Women's,female,
+855,Italy Women's,female,
+2457,Northern Ireland,female,
+861,France Women's,female,
+851,Netherlands Women's,female,
+859,Austria Women's,female,
+854,Belgium Women's,female,
+920,WNT Finland,female,
+853,Denmark Women's,female,
+864,Portugal Women's,female,
+852,Norway Women's,female,
+862,Iceland Women's,female,
+776,Denmark,male,B
+907,Wales,male,A
+908,Slovakia,male,E
+770,Germany,male,Group F
+771,France,male,F
+773,Switzerland,male,A
+789,Poland,male,Group E
+912,Czech Republic,male,D
+2358,North Macedonia,male,Group C
+914,Italy,male,A
+941,Netherlands,male,C
+911,Ukraine,male,
+915,Austria,male,
+916,Hungary,male,F
+942,Scotland,male,D
+768,England,male,D
+782,Belgium,male,B
+915,Austria,male,Group C
+796,Russia,male,Group B
+909,Turkey,male,A
+942,Scotland,male,Group D
+2358,North Macedonia,male,C
+782,Belgium,male,Group B
+911,Ukraine,male,C
+912,Czech Republic,male,
+915,Austria,male,C
+790,Sweden,male,E
+912,Czech Republic,male,Group D
+780,Portugal,male,F
+1835,Finland,male,Group B
+796,Russia,male,B
+147,Marseille,male,
+160,Gazélec Ajaccio,male,
+144,Nantes,male,
+2736,Bastia,male,
+146,Bordeaux,male,
+137,Lyon,male,
+129,AS Monaco,male,
+145,Angers,male,
+139,Montpellier,male,
+134,Rennes,male,
+130,Toulouse,male,
+156,Stade de Reims,male,
+136,OGC Nice,male,
+143,Lille,male,
+131,Paris Saint-Germain,male,
+135,Saint-Étienne,male,
+142,Guingamp,male,
+140,Caen,male,
+165,Lorient,male,
+133,Troyes,male,
+1205,Australia Women's,female,
+6045,Zambia Women's,female,
+16803,Panama Women's,female,
+1206,Canada Women's,female,
+1212,Jamaica Women's,female,
+16802,Colombia Women's,female,
+1214,United States Women's,female,
+1216,South Africa Women's,female,
+2391,Morocco Women's,female,
+1213,Nigeria Women's,female,
+2355,Haiti Women's,female,
+16769,Vietnam Women's,female,
+16768,Republic of Ireland Women's,female,
+1832,Costa Rica Women's,female,
+1203,Brazil Women's,female,
+1106,Philippines Women's,female,
+1215,New Zealand Women's,female,
+1211,Korea Republic Women's,female,
+1204,Argentina Women's,female,
+1207,China PR Women's,female,
+1210,Japan Women's,female,
+863,Spain Women's,female,B
+1107,Thailand Women's,female,F
+858,Sweden Women's,female,F
+866,Scotland Women's,female,D
+1208,Cameroon Women's,female,E
+1205,Australia Women's,female,C
+855,Italy Women's,female,C
+855,Italy Women's,female,Group C
+1210,Japan Women's,female,D
+1211,Korea Republic Women's,female,A
+1207,China PR Women's,female,B
+1215,New Zealand Women's,female,E
+1206,Canada Women's,female,E
+1214,United States Women's,female,F
+1213,Nigeria Women's,female,A
+1203,Brazil Women's,female,C
+865,England Women's,female,D
+852,Norway Women's,female,A
+1209,Chile Women's,female,F
+1216,South Africa Women's,female,B
+1212,Jamaica Women's,female,C
+851,Netherlands Women's,female,E
+1204,Argentina Women's,female,D
+861,France Women's,female,A
+857,Germany Women's,female,B
+1324,River Plate,male,
+1328,Boca Juniors,male,
+181,Schalke 04,male,
+184,Eintracht Frankfurt,male,
+178,Hannover 96,male,
+872,Darmstadt 98,male,
+177,FSV Mainz 05,male,
+171,Hamburger SV,male,
+172,Augsburg,male,
+176,Werder Bremen,male,
+189,Ingolstadt,male,
+186,FC Köln,male,
+185,Borussia Mönchengladbach,male,
+173,Hertha Berlin,male,
+180,Borussia Dortmund,male,
+179,Wolfsburg,male,
+904,Bayer Leverkusen,male,
+175,Hoffenheim,male,
