@@ -5,13 +5,13 @@ Follow the steps to define and populate KickStat Knowledge Base:
 
 Import libraries:  
 
-import kuzu
+import kuzu  
 import shutil 
 
 Create an empty database and connect to it with Python API:  
 
-shutil.rmtree("./knowledgebase", ignore_errors=True)
-db = kuzu.Database('./knowledgebase', buffer_pool_size=1024**3)
+shutil.rmtree("./knowledgebase", ignore_errors=True)  
+db = kuzu.Database('./knowledgebase', buffer_pool_size=1024**3)  
 conn = kuzu.Connection(db) 
 
 Define the schema:  
