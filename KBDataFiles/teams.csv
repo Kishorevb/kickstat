@@ -1,0 +1,266 @@
+217,Barcelona,male
+219,RC Deportivo La Coruña,male
+208,Las Palmas,male
+322,Eibar,male
+220,Real Madrid,male
+218,Real Betis,male
+215,Athletic Club,male
+214,Espanyol,male
+213,Sevilla,male
+207,Valencia,male
+222,Villarreal,male
+211,Girona,male
+212,Atlético Madrid,male
+216,Getafe,male
+205,Leganés,male
+206,Deportivo Alavés,male
+210,Real Sociedad,male
+209,Celta Vigo,male
+422,Osasuna,male
+223,Málaga,male
+627,Tenerife,male
+1043,Mallorca,male
+901,Real Valladolid,male
+1041,Sporting Gijón,male
+403,Almería,male
+1219,Xerez,male
+1217,Racing Santander,male
+395,Real Zaragoza,male
+1218,Hércules,male
+221,Levante UD,male
+1049,Granada,male
+360,Rayo Vallecano,male
+1042,Elche,male
+373,Córdoba CF,male
+608,Albacete,male
+552,Cádiz,male
+1036,Gimnàstic Tarragona,male
+1220,Recreativo Huelva,male
+1230,Real Murcia CF,male
+444,CD Numancia de Soria,male
+902,Huesca,male
+2735,NY Cosmos,male
+228,Atalanta,male
+291,Frosinone,male
+230,Udinese,male
+241,Torino,male
+238,Inter Milan,male
+236,Lazio,male
+229,AS Roma,male
+232,Sassuolo,male
+243,AC Milan,male
+234,Sampdoria,male
+227,Napoli,male
+224,Juventus,male
+226,Hellas Verona,male
+240,Bologna,male
+2256,Palermo,male
+239,Fiorentina,male
+233,Genoa,male
+290,Empoli,male
+1683,Carpi,male
+231,Chievo,male
+7289,Hyderabad,male
+7283,Kerala Blasters,male
+7282,ATK Mohun Bagan,male
+2021,Jamshedpur,male
+7286,East Bengal,male
+7288,Goa,male
+7290,Chennaiyin,male
+7284,Bengaluru,male
+7285,NorthEast United,male
+7291,Odisha,male
+7287,Mumbai City,male
+9763,Argentina U20,male
+169,Bayern Munich,male
+180,Borussia Dortmund,male
+806,Ajax,male
+38,Tottenham Hotspur,male
+129,AS Monaco,male
+22,Leicester City,male
+27,West Bromwich Albion,male
+37,Newcastle United,male
+29,Everton,male
+31,Crystal Palace,male
+1,Arsenal,male
+41,Sunderland,male
+59,Aston Villa,male
+24,Liverpool,male
+30,Stoke City,male
+39,Manchester United,male
+28,AFC Bournemouth,male
+26,Swansea City,male
+25,Southampton,male
+56,Norwich City,male
+33,Chelsea,male
+23,Watford,male
+36,Manchester City,male
+40,West Ham United,male
+46,Wolverhampton Wanderers,male
+47,Middlesbrough,male
+101,Leeds United,male
+98,Blackburn Rovers,male
+54,Birmingham City,male
+328,Bolton Wanderers,male
+55,Fulham,male
+105,Portsmouth,male
+75,Charlton Athletic,male
+746,Manchester City WFC,female
+974,Reading WFC,female
+971,Chelsea FCW,female
+965,Brighton & Hove Albion WFC,female
+967,Everton LFC,female
+969,Birmingham City WFC,female
+968,Arsenal WFC,female
+966,Liverpool WFC,female
+972,West Ham United LFC,female
+970,Yeovil Town LFC,female
+973,Bristol City WFC,female
+1475,Manchester United,female
+749,Tottenham Hotspur Women,female
+2647,Aston Villa,female
+786,Serbia,male
+779,Argentina,male
+792,Australia,male
+781,Brazil,male
+777,Tunisia,male
+3565,Ecuador,male
+941,Netherlands,male
+783,Uruguay,male
+788,Morocco,male
+799,Saudi Arabia,male
+789,Poland,male
+771,France,male
+780,Portugal,male
+768,England,male
+785,Croatia,male
+778,Japan,male
+772,Spain,male
+2722,Cameroon,male
+782,Belgium,male
+770,Germany,male
+1839,United States,male
+3566,Qatar,male
+791,South Korea,male
+4885,Ghana,male
+795,Costa Rica,male
+773,Switzerland,male
+787,Senegal,male
+797,Iran,male
+1833,Canada,male
+907,Wales,male
+794,Mexico,male
+776,Denmark,male
+769,Colombia,male
+790,Sweden,male
+774,Egypt,male
+775,Nigeria,male
+798,Panama,male
+793,Iceland,male
+784,Peru,male
+796,Russia,male
+2721,German DR,male
+763,NJ/NY Gotham FC,female
+766,North Carolina Courage,female
+762,Houston Dash,female
+765,Portland Thorns,female
+761,Chicago Red Stars,female
+759,Washington Spirit,female
+764,Orlando Pride,female
+767,Utah Royals,female
+760,OL Reign,female
+858,Sweden Women's,female
+851,Netherlands Women's,female
+865,England Women's,female
+2457,Northern Ireland,female
+864,Portugal Women's,female
+861,France Women's,female
+852,Norway Women's,female
+857,Germany Women's,female
+862,Iceland Women's,female
+853,Denmark Women's,female
+920,WNT Finland,female
+854,Belgium Women's,female
+855,Italy Women's,female
+860,Switzerland Women's,female
+859,Austria Women's,female
+863,Spain Women's,female
+914,Italy,male
+909,Turkey,male
+915,Austria,male
+912,Czech Republic,male
+911,Ukraine,male
+2358,North Macedonia,male
+1835,Finland,male
+916,Hungary,male
+942,Scotland,male
+908,Slovakia,male
+165,Lorient,male
+135,Saint-Étienne,male
+133,Troyes,male
+134,Rennes,male
+144,Nantes,male
+2736,Bastia,male
+142,Guingamp,male
+131,Paris Saint-Germain,male
+147,Marseille,male
+143,Lille,male
+160,Gazélec Ajaccio,male
+140,Caen,male
+145,Angers,male
+156,Stade de Reims,male
+146,Bordeaux,male
+137,Lyon,male
+136,OGC Nice,male
+139,Montpellier,male
+130,Toulouse,male
+1205,Australia Women's,female
+1203,Brazil Women's,female
+1210,Japan Women's,female
+1213,Nigeria Women's,female
+16802,Colombia Women's,female
+1214,United States Women's,female
+1832,Costa Rica Women's,female
+1204,Argentina Women's,female
+1207,China PR Women's,female
+1206,Canada Women's,female
+1106,Philippines Women's,female
+1215,New Zealand Women's,female
+2391,Morocco Women's,female
+1211,Korea Republic Women's,female
+1212,Jamaica Women's,female
+1216,South Africa Women's,female
+16803,Panama Women's,female
+16769,Vietnam Women's,female
+2355,Haiti Women's,female
+16768,Republic of Ireland Women's,female
+6045,Zambia Women's,female
+1209,Chile Women's,female
+1208,Cameroon Women's,female
+866,Scotland Women's,female
+1107,Thailand Women's,female
+1328,Boca Juniors,male
+1324,River Plate,male
+175,Hoffenheim,male
+173,Hertha Berlin,male
+171,Hamburger SV,male
+179,Wolfsburg,male
+181,Schalke 04,male
+177,FSV Mainz 05,male
+172,Augsburg,male
+904,Bayer Leverkusen,male
+872,Darmstadt 98,male
+176,Werder Bremen,male
+186,FC Köln,male
+184,Eintracht Frankfurt,male
+174,VfB Stuttgart,male
+185,Borussia Mönchengladbach,male
+189,Ingolstadt,male
+178,Hannover 96,male
+488,Seattle Sounders,male
+17403,Soviet Union U20,male
+952,Panathinaikos,male
+256,FC Porto,male
+1076,Juventus,male
+905,Romania,male
+17469,Czechoslovakia,male
