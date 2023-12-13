@@ -3,26 +3,30 @@ Uncover Rare events in Soccer from match data
 
 Follow the steps to define and populate KickStat Knowledge Base:
 
-Import library:  
-import kuzu  
+Import libraries:  
+
+import kuzu
+import shutil 
 
 Create an empty database and connect to it with Python API:  
-db = kuzu.Database('./knowledgebase')  
-conn = kuzu.Connection(db)  
+
+shutil.rmtree("./knowledgebase", ignore_errors=True)
+db = kuzu.Database('./knowledgebase', buffer_pool_size=1024**3)
+conn = kuzu.Connection(db) 
 
 Define the schema:  
-conn.execute("CREATE NODE TABLE Match(match_id INT64, match_date DATE, kick_off TIMESTAMP, home_score INT64, away_score INT64, match_status STRING, match_status_360 STRING, last_updated TIMESTAMP, last_updated_360 TIMESTAMP, match_week INT64, PRIMARY KEY (match_id))")  
+conn.execute("CREATE NODE TABLE MatchNode(match_id INT64, match_date DATE, kick_off TIMESTAMP, home_score INT64, away_score INT64, match_status STRING, match_status_360 STRING, match_week INT64, PRIMARY KEY (match_id))")   
 conn.execute("CREATE NODE TABLE Competition(competition_id INT64, country_name STRING, competition_name STRING, PRIMARY KEY (competition_id))")  
 conn.execute("CREATE NODE TABLE Season(season_id INT64,season_name STRING, PRIMARY KEY (season_id))")  
-conn.execute("CREATE REL TABLE MatchPartOfCompetition(FROM Match TO Competition)")  
-conn.execute("CREATE REL TABLE MatchHeldInSeason(FROM Match TO Season)")  
+conn.execute("CREATE REL TABLE MatchPartOfCompetition(FROM MatchNode TO Competition)")  
+conn.execute("CREATE REL TABLE MatchHeldInSeason(FROM MatchNode TO Season)")  
 
-Load data:
-conn.execute('COPY Match FROM "matches.csv"')  
+Load data:  
+conn.execute('COPY MatchNode FROM "matches.csv"')   
 conn.execute('COPY Competition FROM "competition.csv"')  
 conn.execute('COPY Season FROM "season.csv"')  
-conn.execute('COPY MatchPartOfCompetition FROM "match_part_of_competition.csv"')  
-conn.execute('COPY MatchHeldInSeason FROM "match_held_in_season.csv"')  
+conn.execute('COPY MatchPartOfCompetition FROM "match_part_of_competition.csv"')   
+conn.execute('COPY MatchHeldInSeason FROM "match_held_in_season.csv"')   
 
 Execute a simple query:  
 results = conn.execute('MATCH (u:Competition) RETURN u.competition_id, u.country_name, u.competition_name;')  
