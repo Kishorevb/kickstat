@@ -42,7 +42,15 @@ conn.execute("CREATE REL TABLE MatchPlayerPositions(FROM MatchNode TO Player, po
 conn.execute("CREATE REL TABLE MatchPlayers(FROM MatchNode TO Player, jersey_number INT64)")  
 conn.execute("CREATE REL TABLE MatchPlayerCards(FROM MatchNode TO Player, time STRING, card_type STRING, reason STRING, period INT64)")  
 conn.execute("CREATE REL TABLE PlayerCountry(FROM Player TO Country)")  
-conn.execute("CREATE REL TABLE PlayerTeam(FROM Player TO Team)")   
+conn.execute("CREATE REL TABLE PlayerTeam(FROM Player TO Team)")  
+
+conn.execute("CREATE NODE TABLE Event(event_id STRING, index INT64, period INT64, timestamp STRING, minute INT64, second INT64,\
+type_id INT64, type_name STRING, possession INT64, play_pattern_id INT64, play_pattern_name STRING, position_id INT64, \
+position_name STRING, location STRING, duration FLOAT, under_pressure BOOLEAN, off_camera BOOLEAN, out BOOLEAN, \
+related_events STRING, bad_behaviour_card_id INT64, bad_behaviour_card_name STRING, PRIMARY KEY (event_id))")  
+conn.execute("CREATE REL TABLE EventRelatedToPlayer(FROM Event TO Player)")  
+conn.execute("CREATE REL TABLE EventRelatedToTeam(FROM Event TO Team)")  
+conn.execute("CREATE REL TABLE EventPossessionTeam(FROM Event TO Team)")  
 
 Load data:  
 conn.execute('COPY MatchNode FROM "matches.csv"')   
@@ -73,6 +81,11 @@ conn.execute('COPY MatchPlayers FROM "match_player.csv"')
 conn.execute('COPY MatchPlayerCards FROM "match_player_cards.csv"')  
 conn.execute('COPY PlayerCountry FROM "player_country.csv"')  
 conn.execute('COPY PlayerTeam FROM "player_team.csv"')   
+
+conn.execute('COPY Event FROM "event.csv"')  
+conn.execute('COPY EventRelatedToPlayer FROM "event_related_to_player.csv"')  
+conn.execute('COPY EventRelatedToTeam FROM "event_relates_to_team.csv"')  
+conn.execute('COPY EventPossessionTeam FROM "possession_team.csv"') 
 
 Execute a simple query:  
 results = conn.execute('MATCH (u:Competition) RETURN u.competition_id, u.country_name, u.competition_name;')  
