@@ -11,19 +11,6 @@ SUBJECT_EVENT = 4
 SUBJECT_COUNTRY = 5
 SUBJECT_COMPETITION = 6
 
-# questions = []
-# questions.append()"Given a competition name, season name and a player name, where does he rank with respect to how many matches he is involved in?"
-# questions[1] = "Given a competition name, season name and a team name, where does the team rank with respect to how many goals the team conceded?"
-# questions[2] = "Given a competition name, season name, a team name and a stadium name, where does the team rank with respect to win-loss ratio?"
-# questions[3] = "Given a competition name, season name and a player name, find out how many referees referred in the mathces he is involved in."
-# questions[4] = "Given a competition name, season name and a country name, how many teams in the season have managers from the same country?"
-# questions[5] = "Given a player name, find out how many managers he worked with in the all available mathes."
-# questions[6] = "Given a competition name, season name and a player name, where does he rank with respect to how many events he is involved in?"
-# questions[7] = "Given a competition name, season name and a player name, where does he rank with respect to how many goals he scored"
-# questions[8] = "Given a competition name and season name, find the player with most cards received? (for a given player: count"
-# questions[9] = "Given a competition name and season name, find if any players involved in a self goal"
-
-
 questions = ["Given a competition name, season name and a player name, where does he rank with respect to how many matches he is involved in?",
              "Given a competition name, season name and a team name, where does the team rank with respect to how many goals the team conceded?",
              "Given a competition name, season name, a team name and a stadium name, where does the team rank with respect to win-loss ratio?",
