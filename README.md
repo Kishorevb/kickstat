@@ -34,8 +34,7 @@ conn.execute("CREATE REL TABLE MatchHeldInStadium(FROM MatchNode TO Stadium)")
 conn.execute("CREATE REL TABLE StadiumCountry(FROM Stadium TO Country)")   
 conn.execute("CREATE REL TABLE RefereeCountry(FROM Referee TO Country)")  
 conn.execute("CREATE REL TABLE ManagerCountry(FROM Managers TO Country)")  
-conn.execute("CREATE REL TABLE MatchCompetitionStage(FROM MatchNode TO CompetitionStage)") 
-conn.execute("CREATE REL TABLE MatchHeldInStadium(FROM MatchNode TO Stadium)")   
+conn.execute("CREATE REL TABLE MatchCompetitionStage(FROM MatchNode TO CompetitionStage)")  
 conn.execute("CREATE REL TABLE MatchReferee(FROM MatchNode TO Referee)")  
   
  
