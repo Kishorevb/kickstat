@@ -36,12 +36,8 @@ class QueryBuilder:
             return True
         return False
 
-    def setSeasons(self, start, end=0):
-        if type(start) != type(0) or type(end) != type(0):
-            return False
-        
-        self.startSeason = start
-        self.endSeason = end
+    def setSeason(self, val):
+        self.season = val
         return True
 
     def setSubject(self, subject, subjectType):
@@ -87,6 +83,21 @@ class QueryBuilder:
             self.country = val
             return True
         return False
+    
+    def getCompetition(self):
+        return self.competition
+    
+    def getSubject(self):
+        return self.subject
+    
+    def getSeason(self):
+        return self.season
+    
+    def getStadium(self):
+        return self.stadium
+    
+    def getCountry(self):
+        return self.country
 
 
     def __str__(self):
@@ -198,93 +209,118 @@ def userInputSetQueries():
     awayGames = False
     inQuestion = -1
 
+
     shutil.rmtree("./knowledgebase", ignore_errors=True)
     db = kuzu.Database('./knowledgebase', buffer_pool_size=1024**3)
     conn = kuzu.Connection(db)
     qb = QueryBuilder(conn)
     userIn = 0
 
+    print("Which predetermined query are you interested in?")
+    for i in range(len(questions)):
+        print(""+str(i+1)+". "+questions[i])
+
+    print("\nEnter -1 to exit program\n")
+
+    userIn = int(input())
+    if userIn == -1:
+        return qb, -1
+    
+    inQuestion = userIn
+
+    print("\n(At prompts asking for a name, enter \"-l\" to display list of valid names)\n")
+
     while True:
-        print("Which predetermined query are you interested in?")
-        for i in range(len(questions)):
-            print(""+str(i+1)+". "+questions[i])
-
-        print("Enter \"-1\" to exit the program")
-        userIn = int(input())
-        if(userIn == -1):
-            break
-        inQuestion = userIn
-
-        print("\n(At prompts asking for a name, enter \"-l\" to display list of valid names)\n")
-
-        while True:
-            if inQuestion != 6:
-                print("Which competition are you interested in?")
+        if inQuestion != 6:
+            print("Which competition are you interested in?")
+            userIn = input()
+            if userIn.lower() == "-l":
+                displayList(SUBJECT_COMPETITION)
                 userIn = input()
-                if userIn.lower() == "-l":
-                    displayList(SUBJECT_COMPETITION)
-                    userIn = input()
 
-                if not qb.setCompetition(userIn): continue
+            if not qb.setCompetition(userIn): continue
 
-                print("Start season?")
-                start = int(input())
+            print("Which season? (start year/year after, ie \"2015/2016\")")
+            qb.setSeason(input())
 
-                print("End season? (or 0 for one season)")
-                qb.setSeasons(start, int(input()))
+        if inQuestion in [1, 4, 6, 7, 8]:
+            print("Which player are you interested in?")
 
-            if inQuestion in [1, 4, 6, 7, 8]:
-                print("Which player are you interested in?")
-
+            userIn = input()
+            if userIn.lower() == "-l":
+                displayList(SUBJECT_PLAYER)
                 userIn = input()
-                if userIn.lower() == "-l":
-                    displayList(SUBJECT_PLAYER)
-                    userIn = input()
 
 
-                if not qb.setSubject(userIn, SUBJECT_PLAYER): continue
+            if not qb.setSubject(userIn, SUBJECT_PLAYER): continue
 
-            else:
-                print("Which team are you interested in?")
+        else:
+            print("Which team are you interested in?")
 
+            userIn = input()
+            if userIn.lower() == "-l":
+                displayList(SUBJECT_TEAM)
                 userIn = input()
-                if userIn.lower() == "-l":
-                    displayList(SUBJECT_TEAM)
-                    userIn = input()
 
-                if not qb.setSubject(userIn, SUBJECT_TEAM): continue
-            
-            if inQuestion == 3:
-                print("Which stadium are you interested in?")
-
-                userIn = input()
-                if userIn.lower() == "-l":
-                    displayList(SUBJECT_STADIUM)
-                    userIn = input()
-
-                if not qb.setStadium(userIn): continue
-
-            if inQuestion == 5:
-                print("Which country are you interested in?")
-
-                userIn = input()
-                if userIn.lower() == "-l":
-                    displayList(SUBJECT_STADIUM)
-                    userIn = input()
-
-                if not qb.setCountry(userIn): continue
-
-            print("\n")
-            print(qb)
-            print("\n")
-            break
+            if not qb.setSubject(userIn, SUBJECT_TEAM): continue
         
-   
-    return qb
+        if inQuestion == 3:
+            print("Which stadium are you interested in?")
 
+            userIn = input()
+            if userIn.lower() == "-l":
+                displayList(SUBJECT_STADIUM)
+                userIn = input()
+
+            if not qb.setStadium(userIn): continue
+
+        if inQuestion == 5:
+            print("Which country are you interested in?")
+
+            userIn = input()
+            if userIn.lower() == "-l":
+                displayList(SUBJECT_STADIUM)
+                userIn = input()
+
+            if not qb.setCountry(userIn): continue
+
+        break
+   
+    return qb, inQuestion
+
+def executeQuery(qb, inQuestion):
+
+    # Why doesn't this version of python have switch statements :(
+    if inQuestion == 1:
+        results = rank_player_in_matches(qb.getCompetition(), qb.getSeason(), qb.getSubject())
+    elif inQuestion == 2:
+        results = rank_team_in_goal_concession(qb.getCompetition(), qb.getSeason(), qb.getSubject())
+    elif inQuestion == 3:
+        results = calculate_win_loss_ratio(qb.getSubject(), qb.getStadium(), qb.getCompetition())
+    elif inQuestion == 4:
+        results = count_referees_for_player(qb.getCompetition(), qb.getSeason(), qb.getSubject())
+    elif inQuestion == 5:
+        results = teams_with_managers_from_country_wrapper(qb.getCompetition(), qb.getSeason(), qb.getCountry())
+    elif inQuestion == 6:
+        results = managers_for_player(qb.getSubject())
+    elif inQuestion == 7:
+        results = event_count_for_player(qb.getCompetition(), qb.getSeason(), qb.getSubject())
+    elif inQuestion == 8:
+        results = own_goals_for_player(qb.getCompetition(), qb.getSeason(), qb.getSubject())
+    elif inQuestion == 9:
+        results = card_count_for_player(qb.getCompetition(), qb.getSeason(), qb.getSubject())
+    elif inQuestion == 10:
+        results = own_goals_against_for_player(qb.getCompetition(), qb.getSeason())
+
+    return results
+        
 
 # qb = userInput()
-qb = userInputSetQueries()
-
-print("\n")
-print(qb)
+while True:
+    qb, inQuestion = userInputSetQueries()
+    if inQuestion == -1:
+        break
+    print(executeQuery(qb, inQuestion))
+    print("\nWould you like to enter another query? (y/n)")
+    if str(input()).lower() != 'y':
+        break
