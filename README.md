@@ -11,25 +11,11 @@ Use the following commands to install the necessary libraries:
 
 ```pip install import_ipynb```
 
-Follow the steps to define and populate KickStat Knowledge Base:
+Run the program while in the correct directory with the command:
+```python kickStatInterface.py```
 
-Import libraries:  
-
-import kuzu  
-import shutil 
-
-Create an empty database and connect to it with Python API:  
-
-shutil.rmtree("./knowledgebase", ignore_errors=True)  
-db = kuzu.Database('./knowledgebase', buffer_pool_size=1024**3)  
-conn = kuzu.Connection(db) 
-
-Define the schema sample commands:  
-conn.execute("CREATE NODE TABLE MatchNode(match_id INT64, match_date DATE, kick_off TIMESTAMP, home_score INT64, away_score INT64, match_status STRING, match_status_360 STRING, match_week INT64, PRIMARY KEY (match_id))")   
- 
-
-Load data sample command:  
-conn.execute('COPY MatchNode FROM "matches.csv"')   
+When prompted, enter a number corresponding to the predetermined query you wish to execute, or -1 to exit.
+From there you will be prompted to provide additional data, and then your chosen query will be executed and printed.
 
 Execute a sample query:  
 results = conn.execute('MATCH (u:Competition) RETURN u.competition_id, u.country_name, u.competition_name;')  
