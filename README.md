@@ -15,7 +15,8 @@ Run the program while in the src directory with the command:
 
 ```python kickStatInterface.py```
 
-You should the folloiwng output:  
+You should see the folloiwng output:  
+
 Which predetermined query are you interested in?  
 1. Given a competition name, season name and a player name, where does he rank with respect to how many matches he is involved in?  
 2. Given a competition name, season name and a team name, where does the team rank with respect to how many goals the team conceded?  
