@@ -2,7 +2,7 @@ import kuzu
 import shutil
 
 import import_ipynb
-from create_schema_and_populate_kb import execute_and_print_result
+from create_schema_and_populate_kb import *
 
 SUBJECT_NONE = 0
 SUBJECT_TEAM = 1
@@ -12,6 +12,7 @@ SUBJECT_EVENT = 4
 SUBJECT_COUNTRY = 5
 SUBJECT_COMPETITION = 6
 SUBJECT_STADIUM = 7
+SUBJECT_SEASON = 8
 
 questions = ["Given a competition name, season name and a player name, where does he rank with respect to how many matches he is involved in?",
              "Given a competition name, season name and a team name, where does the team rank with respect to how many goals the team conceded?",
@@ -29,19 +30,41 @@ class QueryBuilder:
     def __init__(self, conn):
         self.conn = conn
 
-    def setCompetition(self, comp):
-        self.competition = comp
+    def setCompetition(self, val):
+        if(self.validateInput(val, SUBJECT_COMPETITION)):
+            self.competition = val
+            return True
+        return False
 
     def setSeasons(self, start, end=0):
+        if type(start) != type(0) or type(end) != type(0):
+            return False
+        
         self.startSeason = start
         self.endSeason = end
+        return True
 
     def setSubject(self, subject, subjectType):
-        if typeString(subjectType) == "UNEXPECTED TYPE":
-            print("Subject type unexpected, cannot set")
-            return
-        self.subject = subject
-        self.subjectType = subjectType
+        if(self.validateInput(subject, subjectType)):
+            self.subject = subject
+            self.subjectType = subjectType
+            return True
+        return False
+    
+    def validateInput(self, val, st):
+        if typeString(st) == "UNEXPECTED TYPE":
+            print("Subject type unexpected, cannot set\n")
+            return False
+        
+        try:
+            out = 0 != len(execute_and_return_result('MATCH (a:' + typeString(st).capitalize() + ') WHERE a.' + typeString(st) + '_name =~ "' + val + '" RETURN a'))
+        except:
+            out = 0 != len(execute_and_return_result('MATCH (a:' + typeString(st).capitalize() + ') WHERE a.name =~ "' + val + '" RETURN a')) 
+
+        if not out:
+            print('Value "' + val + '" was not found in "' + typeString(st).capitalize() +"'\n")
+        
+        return out
 
     def setColumns(self, columns=[]):
         if type(columns) == type([]):
@@ -54,10 +77,17 @@ class QueryBuilder:
         self.awayGames = val
 
     def setStadium(self, val):
-        self.stadium = val
+        if(self.validateInput(val, SUBJECT_STADIUM)):
+            self.stadium = val
+            return True
+        return False
     
     def setCountry(self, val):
-        self.country = val
+        if(self.validateInput(val, SUBJECT_COUNTRY)):
+            self.country = val
+            return True
+        return False
+
 
     def __str__(self):
         s = "Competition: " + self.competition
@@ -93,6 +123,14 @@ def displayList(st):
     except:
         execute_and_print_result('MATCH (a:' + typeString(st).capitalize() + ') RETURN DISTINCT a.' + 'name')
     print("\n")
+
+def validateInput(userIn, st):
+    try:
+        vals = execute_and_return_result('MATCH (a:' + typeString(st).capitalize() + ') WHERE a.' + typeString(st) + '_name =~ "' + userIn + '" RETURN a')
+    except:
+        vals = execute_and_return_result('MATCH (a:' + typeString(st).capitalize() + ') WHERE a.' + typeString(st) + ' =~ "' + userIn + '" RETURN a')
+
+    print(len(vals) != 0)
 
 def userInput():
     inComp = "" 
@@ -164,71 +202,83 @@ def userInputSetQueries():
     db = kuzu.Database('./knowledgebase', buffer_pool_size=1024**3)
     conn = kuzu.Connection(db)
     qb = QueryBuilder(conn)
+    userIn = 0
 
-    print("Which predetermined query are you interested in?")
-    for i in range(len(questions)):
-        print(""+str(i+1)+". "+questions[i])
+    while True:
+        print("Which predetermined query are you interested in?")
+        for i in range(len(questions)):
+            print(""+str(i+1)+". "+questions[i])
 
-    inQuestion = int(input())
+        print("Enter \"-1\" to exit the program")
+        userIn = int(input())
+        if(userIn == -1):
+            break
+        inQuestion = userIn
 
-    print("\n(At prompts asking for a name, enter \"-l\" to display list of valid names)\n")
+        print("\n(At prompts asking for a name, enter \"-l\" to display list of valid names)\n")
 
-    if inQuestion != 6:
-        print("Which competition are you interested in?")
-        userIn = input()
-        if userIn.lower() == "-l":
-            displayList(SUBJECT_COMPETITION)
-            userIn = input()
+        while True:
+            if inQuestion != 6:
+                print("Which competition are you interested in?")
+                userIn = input()
+                if userIn.lower() == "-l":
+                    displayList(SUBJECT_COMPETITION)
+                    userIn = input()
 
-        qb.setCompetition(userIn)
+                if not qb.setCompetition(userIn): continue
 
-        print("Start season?")
-        start = int(input())
+                print("Start season?")
+                start = int(input())
 
-        print("End season? (or 0 for one season)")
-        qb.setSeasons(start, int(input()))
+                print("End season? (or 0 for one season)")
+                qb.setSeasons(start, int(input()))
 
-    if inQuestion in [1, 4, 6, 7, 8]:
-        print("Which player are you interested in?")
+            if inQuestion in [1, 4, 6, 7, 8]:
+                print("Which player are you interested in?")
 
-        userIn = input()
-        if userIn.lower() == "-l":
-            displayList(SUBJECT_PLAYER)
-            userIn = input()
-
-        qb.setPlayer(userIn, SUBJECT_PLAYER)
+                userIn = input()
+                if userIn.lower() == "-l":
+                    displayList(SUBJECT_PLAYER)
+                    userIn = input()
 
 
-    else:
-        print("Which team are you interested in?")
+                if not qb.setSubject(userIn, SUBJECT_PLAYER): continue
 
-        userIn = input()
-        if userIn.lower() == "-l":
-            displayList(SUBJECT_TEAM)
-            userIn = input()
+            else:
+                print("Which team are you interested in?")
 
-        qb.setSubject(userIn, SUBJECT_TEAM)
-    
-    if inQuestion == 3:
-        print("Which stadium are you interested in?")
+                userIn = input()
+                if userIn.lower() == "-l":
+                    displayList(SUBJECT_TEAM)
+                    userIn = input()
 
-        userIn = input()
-        if userIn.lower() == "-l":
-            displayList(SUBJECT_STADIUM)
-            userIn = input()
+                if not qb.setSubject(userIn, SUBJECT_TEAM): continue
+            
+            if inQuestion == 3:
+                print("Which stadium are you interested in?")
 
-        qb.setStadium(userIn)
+                userIn = input()
+                if userIn.lower() == "-l":
+                    displayList(SUBJECT_STADIUM)
+                    userIn = input()
 
-    if inQuestion == 5:
-        print("Which country are you interested in?")
+                if not qb.setStadium(userIn): continue
 
-        userIn = input()
-        if userIn.lower() == "-l":
-            displayList(SUBJECT_STADIUM)
-            userIn = input()
+            if inQuestion == 5:
+                print("Which country are you interested in?")
 
-        qb.setCountry(userIn)
+                userIn = input()
+                if userIn.lower() == "-l":
+                    displayList(SUBJECT_STADIUM)
+                    userIn = input()
 
+                if not qb.setCountry(userIn): continue
+
+            print("\n")
+            print(qb)
+            print("\n")
+            break
+        
    
     return qb
 
