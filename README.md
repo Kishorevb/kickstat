@@ -4,7 +4,9 @@ Uncover Rare events in Soccer from match data
 Use the following commands to install the necessary libraries:
 
 ```pip install kuzu```
+
 ```pip install shutil```
+
 ```pip install import_ipynb```
 
 Follow the steps to define and populate KickStat Knowledge Base:
