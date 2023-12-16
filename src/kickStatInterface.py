@@ -296,7 +296,7 @@ def executeQuery(qb, inQuestion):
     elif inQuestion == 2:
         results = rank_team_in_goal_concession(qb.getCompetition(), qb.getSeason(), qb.getSubject())
     elif inQuestion == 3:
-        results = calculate_win_loss_ratio(qb.getSubject(), qb.getStadium(), qb.getCompetition())
+        results = calculate_win_loss_ratio(qb.getSubject(), qb.getStadium(), qb.getSeason(), qb.getCompetition())
     elif inQuestion == 4:
         results = count_referees_for_player(qb.getCompetition(), qb.getSeason(), qb.getSubject())
     elif inQuestion == 5:
