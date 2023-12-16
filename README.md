@@ -11,7 +11,7 @@ Use the following commands to install the necessary libraries:
 
 ```pip install import_ipynb```
 
-Run the program while in the correct directory with the command:
+Run the program while in the src directory with the command:
 
 ```python kickStatInterface.py```
 
