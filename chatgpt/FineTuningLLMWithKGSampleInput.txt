@@ -1,0 +1,27 @@
+Training Examples:
+
+Question 1. Given a competition name, season name and a player name, where does he rank with respect to how many matches he is involved in? 
+Answer: 
+'MATCH (a:MatchNode)-[e:MatchPlayers]->(b:Player) WHERE b.player_name = "Glenn Murray" AND EXISTS \
+{MATCH (a)-[MatchHeldInSeason]->(s:Season) WHERE s.season_name="2015/2016"} AND EXISTS \
+{MATCH (a)-[MatchPartOfCompetition]->(c:Competition) WHERE c.competition_name = "Premier League"} RETURN count(a.match_id)'
+
+Question 2. Given a competition name, season name and a player name, find out how many referees referred in the mathces he is involved in. 
+Answer:
+'MATCH (a:MatchNode)-[MatchReferee]->(r:Referee) WHERE r.name <>"" AND EXISTS \
+{MATCH (a)-[e:MatchPlayers]->(b:Player) WHERE b.player_name = "Glenn Murray"} AND EXISTS \
+{MATCH (a)-[MatchHeldInSeason]->(s:Season) WHERE s.season_name="2015/2016"} AND EXISTS \
+{MATCH (a)-[MatchPartOfCompetition]->(c:Competition) WHERE c.competition_name = "Premier League"} RETURN DISTINCT r.name')
+Question 3. Given a country name, find how many teams have managers from the given country?
+Answer
+'MATCH (t:Team)-[TeamManagers]->(m:Managers) WHERE m.name <> "" AND EXISTS \
+{MATCH (m)-[ManagerCountry]->(c:Country) WHERE c.name = "Germany" }  RETURN DISTINCT t.team_name')
+
+
+User Prompt: 
+Given a player name, find out how many managers he worked with in the all available mathes.
+
+Generated Cypher Statement:
+Answer:
+'MATCH (t:Team)-[TeamManagers]->(m: Managers) WHERE m.name <> "" AND EXISTS \
+{MATCH (t)<-[PlayerTeam]-(a:Player) WHERE a.player_name = "Glenn Murray"}  RETURN DISTINCT m.name'
