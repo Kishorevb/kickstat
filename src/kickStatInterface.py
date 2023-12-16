@@ -1,7 +1,8 @@
 import kuzu
 import shutil
 
-printInput = True
+import import_ipynb
+from create_schema_and_populate_kb import execute_and_print_result
 
 SUBJECT_NONE = 0
 SUBJECT_TEAM = 1
@@ -10,6 +11,7 @@ SUBJECT_MANAGER = 3
 SUBJECT_EVENT = 4
 SUBJECT_COUNTRY = 5
 SUBJECT_COMPETITION = 6
+SUBJECT_STADIUM = 7
 
 questions = ["Given a competition name, season name and a player name, where does he rank with respect to how many matches he is involved in?",
              "Given a competition name, season name and a team name, where does the team rank with respect to how many goals the team conceded?",
@@ -82,7 +84,15 @@ def typeString(i):
     elif i==4: return "event"
     elif i==5: return "country"
     elif i==6: return "competition"
+    elif i==7: return "stadium"
     else: return "UNEXPECTED TYPE"
+
+def displayList(st):
+    try:
+        execute_and_print_result('MATCH (a:' + typeString(st).capitalize() + ') RETURN DISTINCT a.' + typeString(st) + '_name')
+    except:
+        execute_and_print_result('MATCH (a:' + typeString(st).capitalize() + ') RETURN DISTINCT a.' + 'name')
+    print("\n")
 
 def userInput():
     inComp = "" 
@@ -161,9 +171,16 @@ def userInputSetQueries():
 
     inQuestion = int(input())
 
+    print("\n(At prompts asking for a name, enter \"-l\" to display list of valid names)\n")
+
     if inQuestion != 6:
         print("Which competition are you interested in?")
-        qb.setCompetition(input())
+        userIn = input()
+        if userIn.lower() == "-l":
+            displayList(SUBJECT_COMPETITION)
+            userIn = input()
+
+        qb.setCompetition(userIn)
 
         print("Start season?")
         start = int(input())
@@ -173,19 +190,44 @@ def userInputSetQueries():
 
     if inQuestion in [1, 4, 6, 7, 8]:
         print("Which player are you interested in?")
-        qb.setSubject(input(), SUBJECT_PLAYER)
+
+        userIn = input()
+        if userIn.lower() == "-l":
+            displayList(SUBJECT_PLAYER)
+            userIn = input()
+
+        qb.setPlayer(userIn, SUBJECT_PLAYER)
+
 
     else:
         print("Which team are you interested in?")
-        qb.setSubject(input(), SUBJECT_TEAM)
+
+        userIn = input()
+        if userIn.lower() == "-l":
+            displayList(SUBJECT_TEAM)
+            userIn = input()
+
+        qb.setSubject(userIn, SUBJECT_TEAM)
     
     if inQuestion == 3:
         print("Which stadium are you interested in?")
-        qb.setStadium(input())
+
+        userIn = input()
+        if userIn.lower() == "-l":
+            displayList(SUBJECT_STADIUM)
+            userIn = input()
+
+        qb.setStadium(userIn)
 
     if inQuestion == 5:
         print("Which country are you interested in?")
-        qb.setCountry(input())
+
+        userIn = input()
+        if userIn.lower() == "-l":
+            displayList(SUBJECT_STADIUM)
+            userIn = input()
+
+        qb.setCountry(userIn)
 
    
     return qb
@@ -193,4 +235,6 @@ def userInputSetQueries():
 
 # qb = userInput()
 qb = userInputSetQueries()
+
+print("\n")
 print(qb)
