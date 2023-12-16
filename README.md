@@ -12,6 +12,7 @@ Use the following commands to install the necessary libraries:
 ```pip install import_ipynb```
 
 Run the program while in the correct directory with the command:
+
 ```python kickStatInterface.py```
 
 When prompted, enter a number corresponding to the predetermined query you wish to execute, or -1 to exit.
