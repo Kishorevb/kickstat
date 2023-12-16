@@ -15,5 +15,18 @@ Run the program while in the src directory with the command:
 
 ```python kickStatInterface.py```
 
+You should the folloiwng output:
+Which predetermined query are you interested in?  
+1. Given a competition name, season name and a player name, where does he rank with respect to how many matches he is involved in?  
+2. Given a competition name, season name and a team name, where does the team rank with respect to how many goals the team conceded?  
+3. Given a competition name, season name, a team name and a stadium name, where does the team rank with respect to win-loss ratio?  
+4. Given a competition name, season name and a player name, find out how many referees referred in the mathces he is involved in.  
+5. Given a competition name, season name and a country name, how many teams in the season have managers from the same country?  
+6. Given a player name, find out how many managers he worked with in the all available mathes.  
+7. Given a competition name, season name and a player name, where does he rank with respect to how many events he is involved in?  
+8. Given a competition name, season name and a player name, where does he rank with respect to how many goals he scored  
+9. Given a competition name and season name, find the player with most cards received? (for a given player: count  
+10. Given a competition name and season name, find if any players involved in a self goal  
+
 When prompted, enter a number corresponding to the predetermined query you wish to execute, or -1 to exit.
 From there you will be prompted to provide additional data, and then your chosen query will be executed and printed.
