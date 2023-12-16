@@ -254,7 +254,7 @@ def userInputSetQueries():
 
             if not qb.setSubject(userIn, SUBJECT_PLAYER): continue
 
-        else:
+        elif inQuestion in [2, 3]:
             print("Which team are you interested in?")
 
             userIn = input()
